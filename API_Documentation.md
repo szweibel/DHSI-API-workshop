@@ -13,7 +13,7 @@ How do we interpret that? It turns out there are some conventions in documentati
 >Underlined words are considered literals, and are typed just as they appear.
 >Square brackets ( [ ] ) around an argument indicate that the argument is optional.
 >Ellipses ... are used to show that the previous argument-prototype may be repeated.
->An argument beginning with a minus sign - is often taken to mean some sort of flag argument even if it appears in a >position where a file name could appear.
+>An argument beginning with a minus sign - is often taken to mean some sort of flag argument even if it appears in a position where a file name could appear.
 
 
 If you are really interested, (here is the closest thing)[http://pubs.opengroup.org/onlinepubs/009695399/basedefs/xbd_chap12.html] to a specification. 
@@ -21,7 +21,7 @@ If you are really interested, (here is the closest thing)[http://pubs.opengroup.
 How would the following work? This from the built-in Python API.
 
 input([prompt])
->If the prompt argument is present, it is written to standard output without a trailing newline. The function then reads a >line from input, converts it to a string (stripping a trailing newline), and returns that. When EOF is read, EOFError is >raised. Example:
+>If the prompt argument is present, it is written to standard output without a trailing newline. The function then reads a line from input, converts it to a string (stripping a trailing newline), and returns that. When EOF is read, EOFError is raised. Example:
 ```python
 >>>
 >>> s = input('--> ')  
@@ -31,18 +31,20 @@ input([prompt])
 ```
 
 Here’s another API example:
->requests.get(url, params=None, &ast;&ast;kwargs)[source]
->Sends a GET request.
->Parameters:
->url -- URL for the new Request object.
->params -- (optional) Dictionary or bytes to be sent in the query string for the Request.
->&ast;&ast;kwargs -- Optional arguments that request takes.
+```
+requests.get(url, params=None, &ast;&ast;kwargs)[source]
+Sends a GET request.
 
->Returns:
->Response object
->Return type:
->requests.Response
+Parameters:
+url -- URL for the new Request object.
+params -- (optional) Dictionary or bytes to be sent in the query string for the Request.
+&ast;&ast;kwargs -- Optional arguments that request takes.
 
+Returns:
+Response object
+Return type:
+requests.Response
+```
 
 Let’s spend some time on this one. url is clear enough as a parameter/argument. How about params=None? And even more obscure, &ast;&ast;kwargs? “Optional arguments that ‘request’ takes.” “Kwargs” means “Keyword Arguments”. 
 
