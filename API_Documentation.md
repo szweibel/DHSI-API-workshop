@@ -46,7 +46,7 @@ Return type:
 requests.Response
 ```
 
-Let’s spend some time on this one. url is clear enough as a parameter/argument. How about params=None? And even more obscure, &ast;&ast;kwargs? “Optional arguments that ‘request’ takes.” “Kwargs” means “Keyword Arguments”. 
+Let’s spend some time on this one. `url` is clear enough as a parameter/argument. How about `params=None`? And even more obscure, `**kwargs`? “Optional arguments that ‘request’ takes.” `Kwargs` means “Keyword Arguments”. 
 
 See if you can find what these optional arguments can be in the documents for the Requests API. Was that clear at all?
 
