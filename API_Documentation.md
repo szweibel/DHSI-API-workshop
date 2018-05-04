@@ -1,14 +1,14 @@
 # Documentation and How to Interpret it
 
 Documentation exists to explain what a tool is and how to use it. Too often, whether because documentation is an afterthought, or because the people responsible for making it are better programmers than communicators, technical documentation fails to make itself clear. Paradoxically, it is often necessary to already be familiar with using a tool in order to interpret the instructions about how to use it.  
-Let’s take a look at some (documentation for a tool you’ve already been using.)[http://www.mit.edu/afs.new/sipb/user/ssen/src/curl-7.11.1/docs/curl.html]
+Let’s take a look at some [documentation for a tool you’ve already been using.](http://www.mit.edu/afs.new/sipb/user/ssen/src/curl-7.11.1/docs/curl.html)
 
 Taking this part as a specific example: 
 ```bash
 curl [options] [URL...]
 ```
 
-How do we interpret that? It turns out there are some conventions in documentation that are taken for granted but RARELY EXPLAINED. From (Stack Overflow)[https://stackoverflow.com/questions/10925478/how-to-read-api-documentation-for-newbs]:
+How do we interpret that? It turns out there are some conventions in documentation that are taken for granted but RARELY EXPLAINED. From [Stack Overflow](https://stackoverflow.com/questions/10925478/how-to-read-api-documentation-for-newbs):
 
 >Underlined words are considered literals, and are typed just as they appear.
 >Square brackets ( [ ] ) around an argument indicate that the argument is optional.
@@ -16,7 +16,7 @@ How do we interpret that? It turns out there are some conventions in documentati
 >An argument beginning with a minus sign - is often taken to mean some sort of flag argument even if it appears in a position where a file name could appear.
 
 
-If you are really interested, (here is the closest thing)[http://pubs.opengroup.org/onlinepubs/009695399/basedefs/xbd_chap12.html] to a specification. 
+If you are really interested, [here is the closest thing](http://pubs.opengroup.org/onlinepubs/009695399/basedefs/xbd_chap12.html) to a specification. 
 
 How would the following work? This from the built-in Python API.
 
@@ -38,7 +38,7 @@ Sends a GET request.
 Parameters:
 url -- URL for the new Request object.
 params -- (optional) Dictionary or bytes to be sent in the query string for the Request.
-&ast;&ast;kwargs -- Optional arguments that request takes.
+**kwargs -- Optional arguments that request takes.
 
 Returns:
 Response object
