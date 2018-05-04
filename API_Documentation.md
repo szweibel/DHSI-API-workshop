@@ -20,7 +20,7 @@ If you are really interested, [here is the closest thing](http://pubs.opengroup.
 
 How would the following work? This from the built-in Python API.
 
-input([prompt])
+>input([prompt])
 >If the prompt argument is present, it is written to standard output without a trailing newline. The function then reads a line from input, converts it to a string (stripping a trailing newline), and returns that. When EOF is read, EOFError is raised. Example:
 ```python
 >>>
