@@ -19,39 +19,32 @@ To prepare for this course, please:
 
 ## Day Two 
 
-- API presentations (class and instructors)
+- [API presentations](presentations1.md)
 - [Introduction to command line and cURL](curl.md)
-- Toy API: Yodaspeak or Ermagerhd Translator? 
-Begin work on Python
+- [Python I](python1.md)
 
-Homework: Develop research question
+[Homework: Develop research question](homework2.md)
 
 ## Day Three
 
-- Continue learning Python, turning to focus on working with web APIs
-- Requests: Chronicling America (Patrick?)
-- Overview of data formats (Jonathan?)
-Discuss reading documentation
+- [Python II](python2.md)
+- [APIs in Python](apipython.md)
+- [Requests: Chronicling America](chronicling.md)
+- [Overview of data formats](
+- [Reading documentation](API_Documentation.md)
+
+[Homework: Attempt to collect to your API and collect data](homework3.md)
 
 ## Day Four
 
-- Workshop: continue navigating data types and sets
-- Develop projects 
-- Work on methods of data presentation
+- [Lab: Collecting Data](lab.md)
+- [Exploring Your Data Set](exploring.md)
+- [Lab: Exploring Your Data](lab2.md)
+- [Introduction to Visualization with Pandas](pandas.md)
+- [Creating Twitterbots with the Twitter API](
+
 - Homework: Work on presentation
 
-## Day Fiven
+## Day Five
 
-- Wrap up projects, final preparation for presentations
-- Present to class
-- Have fun
-
-ACCESSING:
-Marvel API
-
-Before the week begins:
-Email participants
-Pair up based on interests
-Reading list
-Ask for suggestions
-
+- [Presentation Dry Run](dry-run.md)
