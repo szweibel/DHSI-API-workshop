@@ -6,7 +6,7 @@ Repository for the Web APIs with Python workshop at the Digital Humanities Summe
 
 To prepare for this course, please:
 
-- Review  the provided readings in the course pack.nnn
+- Review  the provided readings in the course pack.
 - Consider the list of APIs, and think of which you might like to use.
 - Bring an idea or two for projects or research you would like to pursue.
 
@@ -22,18 +22,18 @@ To prepare for this course, please:
 
 ### Day Two 
 
-- API presentations
+- [API presentations](sections/APIpresentations.md)
 - [Introduction to command line](command-line/README.md)
 - [Requests with cURL](curl.md)
 - [Python I](python/README.md)
 
-[Homework: Develop research question](homework2.md)
+[Homework: Develop research question](sections/day2homework.md)
 
-### Day Thre 
+### Day Three 
 
 - [Python II](python/README.md))
 - [APIs in Python](apipython.md)
-- [Requests: Chronicling America](https://programminghistorian.org/lessons/creating-apis-with-python-and-flask##using-apis
+- [Requests: Chronicling America](https://programminghistorian.org/lessons/creating-apis-with-python-and-flask##using-apis)
 - [Overview of data formats](sections/data-formats.ipynb)
 - [Reading documentation](sections/API_Documentation.md)
 
