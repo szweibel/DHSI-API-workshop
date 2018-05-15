@@ -48,7 +48,7 @@ To prepare for this course, please:
 - [Introduction to Visualization with Pandas](pandas.md)
 - [Creating Twitterbots with the Twitter API](twitter-api/README.md)
 
-- [Homework: Work on presentation](homework4.md)
+[Homework: Work on presentation](homework4.md)
 
 ### Day Five
 
