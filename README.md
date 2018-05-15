@@ -27,7 +27,7 @@ To prepare for this course, please:
 - [Requests with cURL](curl.md)
 - [Python I](python/README.md)
 
-[Homework: Develop research question](sections/day2homework.md)
+[Homework: Develop research question](sections/homework2.md)
 
 ### Day Three 
 
@@ -45,7 +45,6 @@ To prepare for this course, please:
 - [Lab: Collecting Data](lab.md)
 - [Exploring Your Data Set](exploring.md)
 - [Lab: Exploring Your Data](lab2.md)
-- [Introduction to Visualization with Pandas](pandas.md)
 - [Creating Twitterbots with the Twitter API](twitter-api/README.md)
 
 [Homework: Work on presentation](homework4.md)
