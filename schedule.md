@@ -30,7 +30,7 @@ To prepare for this course, please:
 - [Python II](python/README.md))
 - [APIs in Python](apipython.md)
 - [Requests: Chronicling America](https://programminghistorian.org/lessons/creating-apis-with-python-and-flask#using-apis)
-- [Overview of data formats](data-formats.ipynb) | [Download]()
+- [Overview of data formats](data-formats.ipynb)
 - [Reading documentation](API_Documentation.md)
 
 [Homework: Attempt to collect to your API and collect data](homework3.md)
