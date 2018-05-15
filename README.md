@@ -31,7 +31,7 @@ To prepare for this course, please:
 
 ### Day Three 
 
-- [Python II](python/README.md))
+- [Python II](python/README.md)
 - [APIs in Python](apipython.md)
 - [Requests: Chronicling America](https://programminghistorian.org/lessons/creating-apis-with-python-and-flask##using-apis)
 - [Overview of data formats](sections/data-formats.ipynb)
@@ -45,7 +45,7 @@ To prepare for this course, please:
 - [Exploring Your Data Set](exploring.md)
 - [Lab: Exploring Your Data](lab2.md)
 - [Introduction to Visualization with Pandas](pandas.md)
-- [Creating Twitterbots with the Twitter API](twitter-api/README.md))
+- [Creating Twitterbots with the Twitter API](twitter-api/README.md)
 
 - Homework: Work on presentation
 
