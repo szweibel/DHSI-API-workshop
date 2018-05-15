@@ -1,9 +1,8 @@
-
 # Pre-workshop Preparation
 
 To prepare for this course, please:
 
-- Review  the provided readings in the course pack.
+- Review  the provided readings in the course pack.nnn
 - Consider the list of APIs, and think of which you might like to use.
 - Bring an idea or two for projects or research you would like to pursue.
 
@@ -19,18 +18,19 @@ To prepare for this course, please:
 
 ## Day Two 
 
-- [API presentations](presentations1.md)
-- [Introduction to command line and cURL](curl.md)
-- [Python I](python1.md)
+- API presentations
+- [Introduction to command line](command-line/README.md)
+- [Requests with cURL](curl.md)
+- [Python I](python/README.md)
 
 [Homework: Develop research question](homework2.md)
 
 ## Day Three
 
-- [Python II](python2.md)
+- [Python II](python/README.md))
 - [APIs in Python](apipython.md)
-- [Requests: Chronicling America](chronicling.md)
-- [Overview of data formats](
+- [Requests: Chronicling America](https://programminghistorian.org/lessons/creating-apis-with-python-and-flask#using-apis)
+- [Overview of data formats](data-formats.ipynb) | [Download]()
 - [Reading documentation](API_Documentation.md)
 
 [Homework: Attempt to collect to your API and collect data](homework3.md)
