@@ -6,7 +6,7 @@ Repository for the Web APIs with Python workshop at the Digital Humanities Summe
 
 To prepare for this course, please:
 
-- Review  the provided readings in the course pack.
+- Review the provided readings in the course pack.
 - Consider the list of APIs, and think of which you might like to use.
 - Bring an idea or two for projects or research you would like to pursue.
 
@@ -31,16 +31,17 @@ To prepare for this course, please:
 
 ### Day Three 
 
+- [Review of Research Questions](questions.md)
 - [Python II](python/README.md)
 - [APIs in Python](apipython.md)
 - [Requests: Chronicling America](https://programminghistorian.org/lessons/creating-apis-with-python-and-flask##using-apis)
-- [Overview of data formats](sections/data-formats.ipynb)
 - [Reading documentation](sections/API_Documentation.md)
 
 [Homework: Attempt to collect to your API and collect data](homework3.md)
 
 ### Day Four
 
+- [Overview of data formats](sections/data-formats.ipynb)
 - [Lab: Collecting Data](lab.md)
 - [Exploring Your Data Set](exploring.md)
 - [Lab: Exploring Your Data](lab2.md)
