@@ -42,13 +42,12 @@ To prepare for this course, please:
 ### Day Four
 
 - [Overview of data formats](sections/data-formats.ipynb)
-- [Lab: Collecting Data](lab.md)
-- [Exploring Your Data Set](exploring.md)
-- [Lab: Exploring Your Data](lab2.md)
+- [Exploring & Visualizing Your Data Set](exploring.md)
 - [Creating Twitterbots with the Twitter API](twitter-api/README.md)
+- [Lab: Exploring Your Data](lab2.md)
 
 [Homework: Work on presentation](homework4.md)
 
 ### Day Five
 
-- [Presentation Dry Run](dry-run.md)
+- [Lab](day5lab.md)
