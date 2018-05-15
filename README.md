@@ -15,8 +15,8 @@ To prepare for this course, please:
 ### Day One
 
 - [Introduction](sections/introduction.md)
-- [Tour of DH Box](sections/dhbox.md)
 - [What is an API?](sections/WhatIsAPI.md)
+- [Tour of DH Box](sections/dhbox.md)
 
 [Homework: Find an API; prepare to present it to the class](homework1.md)
 
