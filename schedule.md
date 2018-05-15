@@ -41,7 +41,7 @@ To prepare for this course, please:
 - [Exploring Your Data Set](exploring.md)
 - [Lab: Exploring Your Data](lab2.md)
 - [Introduction to Visualization with Pandas](pandas.md)
-- [Creating Twitterbots with the Twitter API](
+- [Creating Twitterbots with the Twitter API](twitter-api/README.md))
 
 - Homework: Work on presentation
 
