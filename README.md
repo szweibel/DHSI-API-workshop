@@ -1,4 +1,8 @@
-# Pre-workshop Preparation
+# Web APIs with Python
+
+Repository for the Web APIs with Python workshop at the Digital Humanities Summer Institute.
+
+## Preparing for the Workshop
 
 To prepare for this course, please:
 
@@ -6,17 +10,17 @@ To prepare for this course, please:
 - Consider the list of APIs, and think of which you might like to use.
 - Bring an idea or two for projects or research you would like to pursue.
 
-# DHSI Schedule
+## DHSI Schedule
 
-## Day One 
+### Day One
 
-- [Introduction](introduction.md)
-- [Tour of DH Box](dhbox.md)
-- [What is an API?](WhatIsAPI.md)
+- [Introduction](sections/introduction.md)
+- [Tour of DH Box](sections/dhbox.md)
+- [What is an API?](sections/WhatIsAPI.md)
 
 [Homework: Find an API; prepare to present it to the class](homework1.md)
 
-## Day Two 
+### Day Two 
 
 - API presentations
 - [Introduction to command line](command-line/README.md)
@@ -25,17 +29,17 @@ To prepare for this course, please:
 
 [Homework: Develop research question](homework2.md)
 
-## Day Three
+### Day Thre 
 
 - [Python II](python/README.md))
 - [APIs in Python](apipython.md)
-- [Requests: Chronicling America](https://programminghistorian.org/lessons/creating-apis-with-python-and-flask#using-apis)
-- [Overview of data formats](data-formats.ipynb)
-- [Reading documentation](API_Documentation.md)
+- [Requests: Chronicling America](https://programminghistorian.org/lessons/creating-apis-with-python-and-flask##using-apis
+- [Overview of data formats](sections/data-formats.ipynb)
+- [Reading documentation](sections/API_Documentation.md)
 
 [Homework: Attempt to collect to your API and collect data](homework3.md)
 
-## Day Four
+### Day Four
 
 - [Lab: Collecting Data](lab.md)
 - [Exploring Your Data Set](exploring.md)
@@ -45,6 +49,6 @@ To prepare for this course, please:
 
 - Homework: Work on presentation
 
-## Day Five
+### Day Five
 
 - [Presentation Dry Run](dry-run.md)
