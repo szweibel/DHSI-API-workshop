@@ -6,7 +6,7 @@ Repository for the Web APIs with Python workshop at the Digital Humanities Summe
 
 To prepare for this course, please:
 
-- Review  the provided readings in the course pack.nnn
+- Review the provided readings in the course pack.
 - Consider the list of APIs, and think of which you might like to use.
 - Bring an idea or two for projects or research you would like to pursue.
 
@@ -15,40 +15,39 @@ To prepare for this course, please:
 ### Day One
 
 - [Introduction](sections/introduction.md)
-- [Tour of DH Box](sections/dhbox.md)
 - [What is an API?](sections/WhatIsAPI.md)
+- [Tour of DH Box](sections/dhbox.md)
 
-[Homework: Find an API; prepare to present it to the class](homework1.md)
+[Homework: Find an API; prepare to present it to the class](sections/homework1.md)
 
 ### Day Two 
 
-- API presentations
-- [Introduction to command line](command-line/README.md)
+- [API presentations](sections/APIpresentations.md)
+- [Introduction to command line](sections/command-line/README.md)
 - [Requests with cURL](curl.md)
 - [Python I](python/README.md)
 
-[Homework: Develop research question](homework2.md)
+[Homework: Develop research question](sections/homework2.md)
 
-### Day Thre 
+### Day Three 
 
-- [Python II](python/README.md))
+- [Review of Research Questions](questions.md)
+- [Python II](python/README.md)
 - [APIs in Python](apipython.md)
-- [Requests: Chronicling America](https://programminghistorian.org/lessons/creating-apis-with-python-and-flask##using-apis
-- [Overview of data formats](sections/data-formats.ipynb)
+- [Requests: Chronicling America](https://programminghistorian.org/lessons/creating-apis-with-python-and-flask##using-apis)
 - [Reading documentation](sections/API_Documentation.md)
 
-[Homework: Attempt to collect to your API and collect data](homework3.md)
+[Homework: Attempt to connect to your API and collect data](homework3.md)
 
 ### Day Four
 
-- [Lab: Collecting Data](lab.md)
-- [Exploring Your Data Set](exploring.md)
+- [Overview of data formats](sections/data-formats.ipynb)
+- [Exploring & Visualizing Your Data Set](exploring.md)
+- [Creating Twitterbots with the Twitter API](twitter-api/README.md)
 - [Lab: Exploring Your Data](lab2.md)
-- [Introduction to Visualization with Pandas](pandas.md)
-- [Creating Twitterbots with the Twitter API](twitter-api/README.md))
 
-- Homework: Work on presentation
+[Homework: Work on presentation](homework4.md)
 
 ### Day Five
 
-- [Presentation Dry Run](dry-run.md)
+- [Lab](day5lab.md)
