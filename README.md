@@ -18,12 +18,12 @@ To prepare for this course, please:
 - [What is an API?](sections/WhatIsAPI.md)
 - [Tour of DH Box](sections/dhbox.md)
 
-[Homework: Find an API; prepare to present it to the class](homework1.md)
+[Homework: Find an API; prepare to present it to the class](sections/homework1.md)
 
 ### Day Two 
 
 - [API presentations](sections/APIpresentations.md)
-- [Introduction to command line](command-line/README.md)
+- [Introduction to command line](sections/command-line/README.md)
 - [Requests with cURL](curl.md)
 - [Python I](python/README.md)
 
