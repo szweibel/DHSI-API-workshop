@@ -7,3 +7,4 @@ Prepare a brief introduction to the API you have found.
 - What sort of requests are possible?
 - How much information can you find on the website?
 
+[Return to schedule](README.md)
