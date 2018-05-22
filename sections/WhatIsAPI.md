@@ -1,3 +1,5 @@
+[<<< Previous](introduction.md) | [Next >>>](dhbox.md)
+
 ## What is an API?
 
 In programming generally, the term API, short for Application Programming Interface, refers to a part of a computer program designed to be used or manipulated by another program, as opposed to an interface designed to be used or manipulated by a human. Computer programs frequently need to communicate amongst themselves or with the underlying operating system, and APIs are one way they do it. In this tutorial, however, we’ll be using the term API to refer specifically to web APIs.
@@ -53,3 +55,5 @@ If you follow the above link in your browser, you’ll see a structured list of 
 ```
 
 By making requests to the Chronicling America API, we’ve accessed information on news stories that contain the search term “fire,” and returned data that includes the date of publication and the page the article appears on. If we were to pursue this research question further, a next step might be finding how many stories relating to fire appear on a newspaper’s front page over time, or perhaps cleaning the data to reduce the number of false positives. As we have seen, however, exploring an API can be a useful first step in gathering data to tackle a research question.
+
+[<<< Previous](introduction.md) | [Next >>>](dhbox.md)
