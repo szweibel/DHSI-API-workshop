@@ -78,3 +78,7 @@ To download via a proxy server
 $ curl -x proxy.example.com:3128 http://www.tutorialspoint.com/unix/
 
 ### 
+
+
+These tutorials are derived from the curl official tutorial at 
+https://curl.haxx.se/docs/httpscripting.html
