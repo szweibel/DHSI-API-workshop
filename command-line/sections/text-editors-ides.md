@@ -1,3 +1,6 @@
+[<<< Previous](grep.md)
+[<<< Return to the introduction](README.md)
+
 ## More Information about Text Editors
 
 ### Editors vs. IDEs

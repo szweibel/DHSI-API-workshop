@@ -1,3 +1,6 @@
+[<<< Previous](grep.md)
+[<<< Return to the introduction](README.md)
+
 ### Other useful commands
 
 `<tab>` - The `<tab>` key on your keyboard will complete names of commands and files. Start typing a filename and hit tab twice to see all possible acceptable completions. If there is only one possibility, the rest of the name will be filled in for you.
