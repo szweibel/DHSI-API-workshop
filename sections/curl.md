@@ -77,7 +77,11 @@ To download via a proxy server
 
 $ curl -x proxy.example.com:3128 http://www.tutorialspoint.com/unix/
 
-### 
+### curl party
+
+Type  
+
+`curl parrot.live`
 
 
 These tutorials are derived from the curl official tutorial at 
