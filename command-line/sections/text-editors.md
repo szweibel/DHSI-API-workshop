@@ -23,9 +23,9 @@ While it doesn't really matter which text editor you choose, you should try to b
 
 ### Default Recommendation
 
-Choosing a text editor has as much to do with personality as it does with functionality. For our workshops, we will be using [Visual Studio Code](https://code.visualstudio.com/). Not only is Visual Studio Code free and open source, but it is also consistent across OSX, Windows, and Linux systems.
+Choosing a text editor has as much to do with personality as it does with functionality. For our workshops, we will be using Brackets in DH Box. The advantage of working in the DH Box workspace is that it will work the same regardless of your system -- OSX, Windows, Linux, etc..
 
-Take a moment to download now. We won't be using the editor a lot in this tutorial, so don't worry about getting to know the editor now. In later workshops we will discuss syntax highlighting and version control, which Visual Studio Code supports. For now we will get back to working in the command line itself.
+We won't be using the editor a lot in this tutorial, so don't worry about getting to know the editor now. For now we will get back to working in the command line itself.
 
 [<<< Previous](what-is-the-command-line.md) | [Next >>>](why-is-the-command-line-useful.md)
 
