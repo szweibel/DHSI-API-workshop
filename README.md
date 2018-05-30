@@ -24,7 +24,7 @@ To prepare for this course, please:
 
 - [API research presentations](sections/APIpresentations.md)
 - [Introduction to the command line](command-line/README.md)
-- [Requests with cURL](curl.md)
+- [Requests with cURL](sections/curl.md)
 - [Python I](python/README.md)
 
 [Homework: Develop research question](sections/homework2.md)
