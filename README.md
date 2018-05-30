@@ -37,11 +37,13 @@ To prepare for this course, please:
 - [Requests: Chronicling America](https://programminghistorian.org/lessons/creating-apis-with-python-and-flask##using-apis)
 - [Reading documentation](sections/API_Documentation.md)
 
+
 [Homework: Attempt to connect to your API and collect data](homework3.md)
 
 ### Day Four
 
 - [Overview of data formats](sections/data-formats.ipynb)
+- [Self Directed Exploration: THe New York Times API](sections/exploratory.md)
 - [Exploring & Visualizing Your Data Set](exploring.md)
 - [Creating Twitterbots with the Twitter API](twitter-api/README.md)
 - [Lab: Exploring Your Data](lab2.md)
