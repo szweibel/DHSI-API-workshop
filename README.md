@@ -22,8 +22,8 @@ To prepare for this course, please:
 
 ### Day Two 
 
-- [API presentations](sections/APIpresentations.md)
-- [Introduction to command line](sections/command-line/README.md)
+- [API research presentations](sections/APIpresentations.md)
+- [Introduction to the command line](command-line/README.md)
 - [Requests with cURL](curl.md)
 - [Python I](python/README.md)
 
