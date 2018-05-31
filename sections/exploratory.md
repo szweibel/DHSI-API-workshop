@@ -2,11 +2,11 @@
 
 In this session, you will use some of the tools you have learned (cURL, your browser, Python, research) to explore an API on your own. This session will require patience, persistence, and willingness to try different approaches until you get the results you're looking for.
 
-## Task One
+## Task One: Research
 
 Take a look at the [set of New York Times APIs](https://developer.nytimes.com/), which include APIs for the Times archive, books, and "semantic"—knowledge-based—search. Pick one and do a little research on it, including glancing at its documentation and trying a Google search about it. What do you think it does? What kind of data might it return? Though you don't know what the API does yet in concrete terms, try to think of a question you might answer using it. This question might be related to your research, or it might not.
 
-## Task Two
+## Task Two: Request a Key
 
 Create a new API key for your chosen API.
 

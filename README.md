@@ -34,7 +34,7 @@ To prepare for this course, please:
 - [Discussion: Research Questions](sections/questions.md)
 - [Requests: Chronicling America](https://programminghistorian.org/lessons/creating-apis-with-python-and-flask##using-apis)
 - [Reading documentation](sections/API_Documentation.md)
-- [Self Directed Exploration: THe New York Times API](sections/exploratory.md)
+- [Self Directed Exploration: The New York Times API](sections/exploratory.md)
 
 [Homework: Attempt to connect to your API and collect data](homework3.md)
 
