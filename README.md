@@ -27,11 +27,11 @@ To prepare for this course, please:
 - [Requests with cURL](sections/curl.md)
 - [Python I](python/README.md)
 
-[Homework: Develop research question](sections/homework2.md)
+[Homework: Develop a research question](sections/homework2.md)
 
 ### Day Three 
 
-- [Review of Research Questions](questions.md)
+- [Discussion: Research Questions](sections/questions.md)
 - [Requests: Chronicling America](https://programminghistorian.org/lessons/creating-apis-with-python-and-flask##using-apis)
 - [Reading documentation](sections/API_Documentation.md)
 - [Self Directed Exploration: THe New York Times API](sections/exploratory.md)

@@ -1,3 +1,7 @@
+# Discussion: Research Questions
+
+During the homework, you sought to formulate a research question that could be addressed by data from an API. In coming up with a research question, you considered the following:
+
 # Homework Two: Develop A Research Question
 
 For this homework, you will sketch out a research question to focus on for the remainder of the week. Ideally, you will strike a balance between application to your actual research and the capabilities and limitations of the API or APIs you've researched.
@@ -11,8 +15,6 @@ In formulating your research question, ask yourself:
 - Is your research question concrete and specific?
 - Is the research question well-scoped? That is, is it possible to make inroads on this question during during the week?
 
-Come to day three with a short formulation of your research question—perhaps one sentence and a few bullet points. 
-
-There will be some opportunity to revise and refine the research question, so dont' feel stuck if there is something else they find they would prefer to pursue. 
+During this discussion session, you will refine your research questions with the group and imagine what form a response to your question might take.
 
 [Return to schedule](../README.md)
