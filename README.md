@@ -32,7 +32,6 @@ To prepare for this course, please:
 ### Day Three 
 
 - [Review of Research Questions](questions.md)
-- [APIs in Python](apipython.md)
 - [Requests: Chronicling America](https://programminghistorian.org/lessons/creating-apis-with-python-and-flask##using-apis)
 - [Reading documentation](sections/API_Documentation.md)
 - [Self Directed Exploration: THe New York Times API](sections/exploratory.md)
