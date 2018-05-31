@@ -2,12 +2,6 @@
 
 During the homework, you sought to formulate a research question that could be addressed by data from an API. In coming up with a research question, you considered the following:
 
-# Homework Two: Develop A Research Question
-
-For this homework, you will sketch out a research question to focus on for the remainder of the week. Ideally, you will strike a balance between application to your actual research and the capabilities and limitations of the API or APIs you've researched.
-
-In formulating your research question, ask yourself:
-
 - What sort of questions are possible to answer from the data available?
 - What will you have to do to work with this data in terms of manipulation, processing, storage, and so on?
 - Is this data complete? Does it tell the story it purports to tell?
