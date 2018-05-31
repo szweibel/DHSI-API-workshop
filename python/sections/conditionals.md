@@ -4,7 +4,7 @@
 
 Conditionals allow programs to change their behavior based on whether some statement is true or false. Let's try this out by writing a script that will give different outputs based on the weather:
 
-```
+```python
 weather = "sunny"
 
 if weather == "sunny":
@@ -19,7 +19,7 @@ The `else` statement handles any inputs that aren't "sunny"—the program merely
 
 What if we want our program to handle other kinds of weather, giving different messages for each one? Other cases after the first `if` statement are handled with `elif`:
 
-```
+```python
 weather = "sunny"
 
 if weather == "sunny":

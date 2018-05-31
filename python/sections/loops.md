@@ -6,11 +6,13 @@
 
 Remember lists? They look like this:
 
-	flowers = ['rose', 'violet', 'buttercup']
-	
+```python
+flowers = ['rose', 'violet', 'buttercup']
+```
+
 For now, let's just create a list and print it out. Our script will look like this:
 
-```
+```python
 flowers = ['rose', 'violet', 'buttercup']
 print(flowers)
 ```
@@ -19,7 +21,7 @@ Save this to a new file called `loop.py` and run it with `python loop.py`. You s
 
 So far, we've only learned one function: `type()`. Let's try out another:
 
-```
+```python
 flowers = ['rose', 'violet', 'buttercup']
 # print(flowers)
 
@@ -36,18 +38,22 @@ Notice that, if you run the code above, you won't see the `flowers` list printed
 
 A useful property of a list is the list index. This allows you to pick out an item from within the list by a number starting from zero:
 
-	print(flowers[1]) # rose
-	print(flowers[1]) # violet
+```python
+print(flowers[1]) # rose
+print(flowers[1]) # violet
+```
 	
 You can print out the last item in a list using negative numbers:
 
-	print(flowers[-1]) # buttercup
+```python
+print(flowers[-1]) # buttercup
+```
 
 ## Loops
 
 What if we want to print out each item in the list separately? For that, we'll need something called a loop:
 
-```
+```python
 flowers = ['rose', 'violet', 'buttercup']
 # print(flowers)
 for flower in flowers:
@@ -56,7 +62,7 @@ for flower in flowers:
 
 What's happening here? This kind of loop is called a "for" loop, and tells Python: "for each item in the list, do something." Let's break it down:
 
-```
+```python
 for <variable name> in <list name>:
 	<do something>
 ```
@@ -69,7 +75,7 @@ You can also perform more complicated operations. Let's tackle one in a challeng
 
 Here's a list of numbers:
 
-```
+```python
 prime_numbers = [2, 3, 5, 7, 11]
 ```
 
