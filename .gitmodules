@@ -1,9 +1,3 @@
-[submodule "command-line"]
-	path = command-line
-	url = git@github.com:DHRI-Curriculum/command-line.git
-[submodule "python"]
-	path = python
-	url = git@github.com:DHRI-Curriculum/python.git
 [submodule "twitter-api"]
 	path = twitter-api
 	url = git@github.com:DHRI-Curriculum/twitter-api.git
