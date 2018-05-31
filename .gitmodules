@@ -1,3 +1,0 @@
-[submodule "twitter-api"]
-	path = twitter-api
-	url = git@github.com:DHRI-Curriculum/twitter-api.git
