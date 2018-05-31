@@ -1,0 +1,21 @@
+# Collecting API Data with Requests
+
+Web APIs are tools for making information and application functionality accessible over the internet. In this lesson, you will:
+
+- Learn what an API is and when you should use one.
+- Learn how to build a web API that returns data to its users.
+- Learn some principles of good API design, applying them to an API that draws book metadata from a database.
+
+This lesson has been adapted from [Creating Web APIs with Python and Flask](https://programminghistorian.org/en/lessons/creating-apis-with-python-and-flask) by Patrick Smyth,  edited by Brandon Walsh, and reviewed by Ryan Deschamps and Megan Kudzia. This lesson was originally published on [The Programming Historian](https://programminghistorian.org/).
+
+[Get Started >>>](sections/what-is-api.md)
+
+-----
+
+[What is an API?](sections/what-is-api.md)  
+[Why Use APIs as a Researcher?](sections/why-use.py)  
+[An API Case Study: Sensationalism and Historical Fires](sections/fires.md)  
+
+----
+
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
