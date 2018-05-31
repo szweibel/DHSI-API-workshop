@@ -36,7 +36,7 @@ To prepare for this course, please:
 - [Reading documentation](sections/API_Documentation.md)
 - [Self Directed Exploration: The New York Times API](sections/exploratory.md)
 
-[Homework: Attempt to connect to your API and collect data](homework3.md)
+[Homework: Collecting data](sections/homework3.md)
 
 ### Day Four
 
