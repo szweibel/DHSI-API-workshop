@@ -2,11 +2,11 @@
 
 ## Interacting with Python
 
-To start an interactive session with Python, open your terminal and type
+To start an interactive session with Python, type this at the `$` prompt and hit Enter. (Leave off the `$`, the text you're typing comes after the prompt.)
 
-	$ python
+	$ python3
 	
-at the prompt. 	You should see something like this
+You should see something like this
 
 ```
 Python 3.6.3 |Anaconda, Inc.| (default, Oct 13 2017, 12:02:49) 

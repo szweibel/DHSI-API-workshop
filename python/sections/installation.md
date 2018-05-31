@@ -1,19 +1,15 @@
 [Next >>>](repl.md)
 
-### Installation
+# Getting ready
 
-For these exercises, we will be using Anaconda, a version of Python that comes packaged with useful libraries for working with natural language and scientific data. 
+You've already been introduced to DH Box, a cloud-based digital humanities laboratory that we'll be using for these sessions on APIs. For this section on Python, we'll be writing scripts in the Brackets text editor and running them in the command line.
 
-To download Anaconda, [follow this link](https://www.continuum.io/downloads) and click the button for your operating system and Python 3.x (3.6 at the time of this writing). You want the 64-bit, graphical installer version.
+First log into DH Box using the "log in" button at the top right on [the DH Box website](http://dhbox.org). 
 
-After installation, to test that Anaconda is working correctly, type 
+Once logged in—or if you were logged in from a previous session—click your username on the top right and select the "Apps" option.
 
-    $ python --version
+You'll see the different apps in tabs along the top of the browser window, below the purple title bar. Click "Command Line." Once the command line opens, enter the username and password you used to sign up for DH Box.
 
-in your terminal. If Anaconda is working, your output should look like this:
-
-	Python 3.6.4:: Anaconda 2.5.0 (64-bit)
-
-Note that to get this output you may need to refresh your terminal by typing `exec $SHELL` in the prompt (including the `$`) or by closing and reopening the terminal.
+Once you see the prompt (your username and a `$`) you're in the right place for the next part of this session.
 
 [Next >>>](repl.md)

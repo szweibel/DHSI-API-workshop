@@ -6,7 +6,7 @@ Types are classifications that let the computer know how a programmer intends to
 
 We've already seen one type in the last section: the integer. In this section, we'll learn four more: the floating point number, the string, the boolean, and the list.
 
-Enter these lines as you see them below:
+Enter the commands that come after the `>>>` prompt. The line below shows the output you should see.
 
 ```
 >>> type(1)
