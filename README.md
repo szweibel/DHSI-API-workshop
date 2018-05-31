@@ -22,22 +22,21 @@ To prepare for this course, please:
 
 ### Day Two 
 
-- [API presentations](sections/APIpresentations.md)
-- [Introduction to command line](sections/command-line/README.md)
-- [Requests with cURL](curl.md)
+- [API research presentations](sections/APIpresentations.md)
+- [Introduction to the command line](command-line/README.md)
+- [Requests with cURL](sections/curl.md)
 - [Python I](python/README.md)
 
-[Homework: Develop research question](sections/homework2.md)
+[Homework: Develop a research question](sections/homework2.md)
 
 ### Day Three 
 
-- [Review of Research Questions](questions.md)
-- [Python II](python/README.md)
-- [APIs in Python](apipython.md)
+- [Discussion: Research Questions](sections/questions.md)
 - [Requests: Chronicling America](https://programminghistorian.org/lessons/creating-apis-with-python-and-flask##using-apis)
 - [Reading documentation](sections/API_Documentation.md)
+- [Self Directed Exploration: The New York Times API](sections/exploratory.md)
 
-[Homework: Attempt to connect to your API and collect data](homework3.md)
+[Homework: Collecting data](sections/homework3.md)
 
 ### Day Four
 

@@ -1,9 +1,18 @@
-## Homework: Develop Research Question
-Students will sketch out a research question to focus on for the week, putting information about available APIs up against the sort of research they would like to be doing. Things to consider:
-- What sort of questions are possible to answer from the data available?
-- How to present this research?
-- Is this data complete? Does it tell the story it purports to tell? 
-- What is useful/interesting about the research question and the possible answer?
-- Will the research benefit from combining more than one dataset (a "mashup")?
+# Homework Two: Develop A Research Question
 
-Students should come to day 3 with a short formulation of their research question (perhaps one sentence and a few bullet points). There will be some opportunity to revise and refine the research question--so students need not feel stuck if there is something else they find they would prefer to pursue. 
+For this homework, you will sketch out a research question to focus on for the remainder of the week. Ideally, you will strike a balance between application to your actual research and the capabilities and limitations of the API or APIs you've researched.
+
+In formulating your research question, ask yourself:
+
+- What sort of questions are possible to answer from the data available?
+- What will you have to do to work with this data in terms of manipulation, processing, storage, and so on?
+- Is this data complete? Does it tell the story it purports to tell?
+- Might the research benefit from combining more than one data set?
+- Is your research question concrete and specific?
+- Is the research question well-scoped? That is, is it possible to make inroads on this question during during the week?
+
+Come to day three with a short formulation of your research question—perhaps one sentence and a few bullet points. 
+
+There will be some opportunity to revise and refine the research question, so dont' feel stuck if there is something else they find they would prefer to pursue. 
+
+[Return to schedule](../README.md)
