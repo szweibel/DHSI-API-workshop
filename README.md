@@ -25,14 +25,14 @@ To prepare for this course, please:
 - [API research presentations](sections/APIpresentations.md)
 - [Introduction to the command line](command-line/README.md)
 - [Requests with cURL](sections/curl.md)
-- [Python I](python/README.md)
+- [Introduction to Python](python/README.md)
 
 [Homework: Develop a research question](sections/homework2.md)
 
 ### Day Three 
 
 - [Discussion: Research Questions](sections/questions.md)
-- [Collecting API Data with Requests](sections/requests-session/README.md)
+- [Collecting and Processing API Data with Requests](sections/requests-session/README.md)  
 - [Reading documentation](sections/API_Documentation.md)
 - [Self Directed Exploration: The New York Times API](sections/exploratory.md)
 

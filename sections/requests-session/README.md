@@ -1,4 +1,4 @@
-# Collecting API Data with Requests
+# Collecting and Processing API Data with Requests
 
 Web APIs are tools for making information and application functionality accessible over the internet. In this lesson, you will:
 
@@ -12,9 +12,13 @@ This lesson has been adapted from [Creating Web APIs with Python and Flask](http
 
 -----
 
-[What is an API?](sections/what-is-api.md)  
-[Why Use APIs as a Researcher?](sections/why-use.py)  
+[Review: What is an API?](sections/what-is-api.md)  
+[Why Use APIs as a Researcher?](sections/why-use.md)  
 [An API Case Study: Sensationalism and Historical Fires](sections/fires.md)  
+[Making Requests Using Python](sections/requests.md)  
+[Parsing and Exploring Results](sections/parsing.md)  
+[Cleaning and Transforming Data](sections/transform.md)  
+[Challenges](sections/challenges.md)  
 
 ----
 
