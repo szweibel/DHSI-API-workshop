@@ -49,7 +49,7 @@ For your digital best practices, we recommend making sure that file names contai
 
 ### Using a text editor
 
-The challenge for this section will be using a text editor to add some of the commands that we've learned to the newly created cheat sheet. Text editors are programs that allow you to edit plain text files, such as .txt, .py (Python scripts), and .csv (spreadsheet files). Remember not to use programs such as Microsoft Word to edit text files, since they add invisible characters that can cause problems. 
+The challenge for this section will be using your DH Box text editor, Brackets, to add some of the commands that we've learned to the newly created cheat sheet. Text editors are programs that allow you to edit plain text files, such as .txt, .py (Python scripts), and .csv (spreadsheet files). Remember not to use programs such as Microsoft Word to edit text files, since they add invisible characters that can cause problems. 
 
 ## Challenge
 
