@@ -1,3 +1,5 @@
+[<<< Previous](why-use.md) | [Next >>>](requests.md)
+
 # An API Case Study: Sensationalism and Historical Fires
 
 Imagine that our research area is sensationalism and the press: has newspaper coverage of major events in the United States become more or less sensational over time? Narrowing the topic, we might ask whether press coverage of, for example, urban fires has increased or decreased with government reporting on fire-related relief spending.
@@ -39,8 +41,8 @@ If you [follow the above link](http://chroniclingamerica.loc.gov/search/pages/re
       "end_year": 1939,
 ```
 
+Note that, while the total results of our search total more tha 6,000,000, far fewer have been presented to us. Because Chronicling America has so much data, they have opted to paginate data that is returned—what we see here is only the first 20 pages. If we wanted to see the next 20 pages, we would add `?page=21` to start the index at page 21.
+
 By making requests to the Chronicling America API, we've accessed information on news stories that contain the search term "fire," and returned data that includes the date of publication and the page the article appears on. If we were to pursue this research question further, a next step might be finding how many stories relating to fire appear on a newspaper's front page over time, or perhaps cleaning the data to reduce the number of false positives. As we have seen, however, exploring an API can be a useful first step in gathering data to tackle a research question.
 
-<div class="alert alert-warning">
-Note that in this section, we skipped an important step: finding an appropriate API in the first place. Some resources for researching APIs are available at the end of this lesson.
-</div>
+[<<< Previous](why-use.md) | [Next >>>](requests.md)
