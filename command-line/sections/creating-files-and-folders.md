@@ -25,13 +25,13 @@ If the command succeeds, you won't see any output. You can now look at the `File
 
 ![File Manager](filemanager.png)
 
-See any differences? If the command was successful and you were in the right place, you should see an empty text file called "foo.txt" in the home directory. 
+See any differences? If the command was successful and you were in the right place, you should see an empty text file called "foo.txt" in the home directory. (note - the [`touch`](https://en.wikipedia.org/wiki/Touch_(Unix)) command will not overwrite your document nor will it add another document to the same directory. It will update info about that file.)
 
 #### Handy tip: up arrow
 
-Let's say you liked that "foo.txt" file so much you'd like another! In the command line tab, press the "up arrow" on your keyboard. You'll notice this populates the line with the command that you just wrote. You can hit "Enter" to create another "foo.txt," (note - the [`touch`](https://en.wikipedia.org/wiki/Touch_(Unix)) command will not overwrite your document nor will it add another document to the same directory. It will update info about that file.) or you could use your left/right arrows to change the file name to "foot.txt" to create something different. 
+Let's say you liked that "foo.txt" file so much you'd like another! In the command line tab, press the "up arrow" on your keyboard. You'll notice this populates the line with the command that you just wrote. You can hit "Enter" to create another "foo.txt,"  or you could use your left/right arrows to change the file name to "foot.txt" to create something different. 
 
-As we start to write more complicated and longer commands in our terminal, the "up arrow" is a great shortcut so you don't have to spend lots of time typing. 
+As we start to write more complicated and longer commands in our terminal, the "up arrow" is a great shortcut so you don't have to spend lots of time typing and to avoid typos of commands that you have previously run successfully. 
 
 ### Creating folders
 
@@ -41,7 +41,7 @@ Once we return to the `Command Line` tab, make sure we're still in the home fold
 
 ```
 $ pwd
-/Users/jojokarlin
+/home/jojokarlin
 ```
 
 Once you've double-checked where we are, we'll use the command `mkdir`, short for "make directory," to make a folder called "projects":
@@ -59,7 +59,7 @@ $ ls
 foo.txt projects
 ```
 
-Once you confirm that the projects folder was created successfully, you can use the command `cd` into it. 
+Once you confirm that the projects folder was created successfully, you can use the command `cd`, short for "change directory", into it. 
 
 ```
 $ cd projects
@@ -67,7 +67,7 @@ $ pwd
 /home/jojokarlin/projects
 ```
 
-OK, now you've got a projects folder that you can use throughout the Institute. It should be visible on your graphical desktop, just like the `foo.txt` file we created earlier. 
+OK, now you've got a projects folder that you can use throughout the Institute. It should be visible on your graphical `File Manager`, just like the `foo.txt` file we created earlier. 
 
 [<<< Previous](navigation.md) | [Next >>>](creating_a_cheat_sheet.md)
 
