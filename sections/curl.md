@@ -1,14 +1,14 @@
-# Requests with cURL
+# Requests with curl
 
 Now that we're a little familiar with basic commands for navigating our file system, moving files, and exploring datasets, let's see how we can communicate with other computers using the cURL command.
 
-[cURL](https://curl.haxx.se/) is a command-line application for performing requests using a variety of protocols including HTTP. We're going to look at how to use it when doing HTTP requests.
+[curl](https://curl.haxx.se/) is a command-line application for performing requests using a variety of protocols including HTTP. We're going to look at how to use it when doing HTTP requests.
 
 ## HTTP
 
 HTTP is the protocol used to fetch data from web servers. The protocol also allows information to get sent to the servers.
 
-The client, cURL, sends a HTTP request. The request contains a method (like GET, POST, HEAD etc), a number of request headers and sometimes a request body. The HTTP server responds with a status line (indicating if things went well), response headers and most often also a response body. The "body" part is the plain data you requested, like the HTML or the image, etc.
+The client, curl, sends a HTTP request. The request contains a method (like GET, POST, HEAD etc), a number of request headers and sometimes a request body. The HTTP server responds with a status line (indicating if things went well), response headers and most often also a response body. The "body" part is the plain data you requested, like the HTML or the image, etc.
 
 If you want to see what's going on, you can use curl's option --verbose (-v as a short option), to display the commands curl is sending to the server.
 
@@ -34,9 +34,9 @@ The URL can contain additional information. One such type of information, the qu
 
 HTTP has a number of **methods** that determine which way information is flowing in a request and what is done with the information. The two most important for our purposes are GET and POST. GET requests that information be delivered from the remote server to the local machine. POST instead sends data to the remote server, where it is processed.
 
-## cURL Commands
+## curl Commands
 
-The most common cURL command is to GET a URL. The URL could itself refer to a web page, an image or a file. The client issues a GET request to the server and receives the information (document, image, etc)  it asked for. If, in your terminal, you you issue the command:
+The most common curl command is to GET a URL. The URL could itself refer to a web page, an image or a file. The client issues a GET request to the server and receives the information (document, image, etc)  it asked for. If, in your terminal, you you issue the command:
 
 ``` curl https://curl.haxx.se ```
 
@@ -48,7 +48,7 @@ If you're familiar with HTML, you will recognize the contents of a fairly conven
 
 All HTTP replies contain a set of response headers that are normally hidden, use curl's `--include` (`-i`) option to display them as well as the rest of the document.
 
-Compare the results of 
+Compare these results
 
 ``` 
 $ curl https://curl.haxx.se
@@ -158,7 +158,15 @@ curl dict://dict.org/d:[word you'd like defined]
 In the commands above, the `m` stands for "Match" and the `d` stands for "Define." Visit the protocol [here](https://datatracker.ietf.org/doc/rfc2229/?include_text=1).
 
 
-## Examples
+### Parrot
+
+As with many commands, curl has its own flavor of nonsense.
+
+``` curl parrot.live ```
+
+Too help the parrot go the way of Monty Python's, type `Ctrl` `x` `ctrl` `c`.
+
+## A review of some key commands
 
 To send your password file to the server, where `<password>` is the name of the form-field to which /etc/password will be the input:
 
@@ -189,10 +197,6 @@ To download via a proxy server
 
 	curl -x proxy.example.com:3128 http://www.tutorialspoint.com/unix/
 
-### curl party
 
-Type  
 
-`curl parrot.live`
-
-These examples are derived from the [cURL official tutorial](https://curl.haxx.se/docs/httpscripting.html).
+These examples are derived from the [curl official tutorial](https://curl.haxx.se/docs/httpscripting.html).
