@@ -24,20 +24,19 @@ Use the `grep` command to explore our .csv file a bit. What areas are best cover
 
 ### Before we finish...
 
-Before you leave today, we're going to prepare a little for our upcoming sessions. In your projects folder on the desktop, we're going to create a folder to house our cheat sheets for the week, as well as a new folder for the upcoming databases workshop.
+Before you leave today, we're going to prepare a little for our upcoming sessions. In your projects folder in your home directory, we're going to create a folder to house our cheat sheet, as well as a new folder for the upcoming api lesson.
 
 ```
 $ pwd
-/Users/jojo/Desktop/projects
+/home/jojokarlin/projects
 $ mkdir cheatsheets
-$ mkdir databases
+$ mkdir api
 ```
 
-Then move your `cheat-sheet.txt` file into your `cheatsheets` folder and your `nypl_items.csv` into your `databases` folder with the `mv` command:
+Then move your `cheat-sheet.txt` file into your `cheatsheets` folder with the `mv` command:
 
 ```
 $ mv cheat-sheet.txt cheatsheets
-$ mv nypl_items.csv databases
 ```
 
 ### What next?
