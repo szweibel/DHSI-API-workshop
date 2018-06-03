@@ -21,7 +21,7 @@ Now let's check the contents of the directory:
 
 ```
 $ pwd
-/Users/jojo/projects
+/home/jojokarlin/projects
 $ ls
 cheat-sheet.txt
 ```
@@ -53,11 +53,7 @@ The challenge for this section will be using your DH Box text editor, Brackets, 
 
 ## Challenge
 
-From your programs menu, via Finder or Applications or Launchpad in Mac OSX, via Windows button in Windows, open your Visual Studio Code text editor:
-
-	code cheat-sheet.txt
-
-Type to add the commands we've learned so far to the file. Include descriptions about what each command does. Remember -- this cheat sheet is for you. Write descriptions that make sense to you or take notes about questions.
+In your DH Box browser, open your `Brackets` text editor. Add the commands we've learned so far to the file. Include descriptions about what each command does. Remember -- this cheat sheet is for you. Write descriptions that make sense to you or take notes about questions.
 
 Save the file.
 
