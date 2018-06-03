@@ -1,4 +1,4 @@
-# Requests with curl
+# Requests with cURL
 
 Now that we're a little familiar with basic commands for navigating our file system, moving files, and exploring datasets, let's see how we can communicate with other computers using the cURL command.
 
@@ -10,15 +10,15 @@ According to Google's Data API's article,
 
 > cURL is a command-line application for performing requests using a variety of protocols including HTTP. cURL is often used by developers to test Google Data services, as it supports the HTTP functionality required to interact with the APIs at a low level.
 
-So while we won't be using cURL the whole week, it is good to learn to understand how your computer can interact with other computers without getting your browser involved. If you find cURL really exciting, I recommend the Google Data article ["Using cURL"](https://developers.google.com/gdata/articles/using_cURL)
+So while we won't be using cURL the whole week, it is good to learn to understand how your computer can interact with other computers without getting your browser involved. If you find cURL really exciting, I recommend the Google Data article ["Using curl"](https://developers.google.com/gdata/articles/using_curl)
 
 ## HTTP
 
 HTTP is the protocol used to fetch data from web servers. The protocol also allows information to get sent to the servers.
 
-The client, curl, sends a HTTP request. The request contains a method (like GET, POST, HEAD etc), a number of request headers and sometimes a request body. The HTTP server responds with a status line (indicating if things went well), response headers and most often also a response body. The "body" part is the plain data you requested, like the HTML or the image, etc.
+The client, cURL, sends a HTTP request. The request contains a method (like GET, POST, HEAD etc), a number of request headers and sometimes a request body. The HTTP server responds with a status line (indicating if things went well), response headers and most often also a response body. The "body" part is the plain data you requested, like the HTML or the image, etc.
 
-If you want to see what's going on, you can use curl's option --verbose (-v as a short option), to display the commands curl is sending to the server.
+If you want to see what's going on, you can use cURL's option --verbose (-v as a short option), to display the commands cURL is sending to the server.
 
 ## URL
 
@@ -42,11 +42,11 @@ The URL can contain additional information. One such type of information, the qu
 
 HTTP has a number of **methods** that determine which way information is flowing in a request and what is done with the information. The two most important for our purposes are GET and POST. GET requests that information be delivered from the remote server to the local machine. POST instead sends data to the remote server, where it is processed.
 
-## curl Commands
+## cURL Commands
 
 ### GET
 
-The most common curl command is to GET a URL. The URL could itself refer to a web page, an image or a file. The client issues a GET request to the server and receives the information (document, image, etc)  it asked for. If, in your terminal, you you issue the command:
+The most common cURL command is to GET a URL. The URL could itself refer to a web page, an image or a file. The client issues a GET request to the server and receives the information (document, image, etc)  it asked for. If, in your terminal, you you issue the command:
 
 ``` curl https://curl.haxx.se ```
 
@@ -56,7 +56,7 @@ If you're familiar with HTML, you will recognize the contents of a fairly conven
 
 ### -i
 
-All HTTP replies contain a set of response headers that are normally hidden, use curl's `--include` (`-i`) option to display them as well as the rest of the document.
+All HTTP replies contain a set of response headers that are normally hidden, use cURL's `--include` (`-i`) option to display them as well as the rest of the document.
 
 Compare these results:
 
@@ -114,15 +114,15 @@ You don't need to know what all these bits of information mean, but you can see 
 
 ### HEAD
 
-Using the `--head` (`-I`) option will make curl issue a HEAD request. In other words, you will only see the headers associated with the URL.
+Using the `--head` (`-I`) option will make cURL issue a HEAD request. In other words, you will only see the headers associated with the URL.
 
 ``` curl -I http://curl.haxx.se ```
 
-curl was made to be flexible and will attempt to retrieve information on anything you give it. Here again, precise typing is important. If you feed curl a slightly wonky url it will do its best to get information, but to get the results you want, you need to be clear about where you send it.
+cURL was made to be flexible and will attempt to retrieve information on anything you give it. Here again, precise typing is important. If you feed cURL a slightly wonky url it will do its best to get information, but to get the results you want, you need to be clear about where you send it.
 
 ### A note about switches
 
-curl supports over 200 options like `-I` or `-i`. These switches (which indicate how the command should run) come in both short and long forms. Short options follow a single hyphen; long options follow a double hyphen. As you just saw, `--head` and `-I` will return the same results. The command line parser always parses the entire line in curl, so you can put the flags indicating options anywhere in the line.
+cURL supports over 200 options like `-I` or `-i`. These switches (which indicate how the command should run) come in both short and long forms. Short options follow a single hyphen; long options follow a double hyphen. As you just saw, `--head` and `-I` will return the same results. The command line parser always parses the entire line in cURL, so you can put the flags indicating options anywhere in the line.
 
 ``` curl -i https://curl.haxx.se ```
 
@@ -131,11 +131,11 @@ will return the same results as
 ``` curl https://curl.haxx.se -i ```
 
 
-### Some fun curl commands
+### Some fun cURL commands
 
 #### DICT
 
-curl lets you to retrieve definitions from the command line through DICT, the Dictionary Server Protocol, developed in 1997. The Dictionary Server Protocol (DICT) is a TCP transaction based query/response protocol that allows a client to access dictionary definitions from a set of natural language dictionary databases. 
+cURL lets you to retrieve definitions from the command line through DICT, the Dictionary Server Protocol, developed in 1997. The Dictionary Server Protocol (DICT) is a TCP transaction based query/response protocol that allows a client to access dictionary definitions from a set of natural language dictionary databases. 
 
 ```
 curl dict://dict.org/m:curl  
@@ -148,13 +148,13 @@ In the commands above, the `m` stands for "Match" and the `d` stands for "Define
 
 ### Parrot
 
-As with many commands, curl has its own flavor of nonsense.
+As with many commands, cURL has its own flavor of nonsense.
 
 ``` curl parrot.live ```
 
 Too help the parrot go the way of Monty Python's, type `Ctrl` `x` `ctrl` `c`.
 
-## A review of some key commands
+## Some key commands
 
 To send your password file to the server, where `<password>` is the name of the form-field to which /etc/password will be the input:
 
