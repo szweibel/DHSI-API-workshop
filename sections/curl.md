@@ -2,7 +2,15 @@
 
 Now that we're a little familiar with basic commands for navigating our file system, moving files, and exploring datasets, let's see how we can communicate with other computers using the cURL command.
 
+## What is cURL and why are we learning it?
+
 [curl](https://curl.haxx.se/) is a command-line application for performing requests using a variety of protocols including HTTP. We're going to look at how to use it when doing HTTP requests.
+
+According to Google's Data API's article, 
+
+> cURL is a command-line application for performing requests using a variety of protocols including HTTP. cURL is often used by developers to test Google Data services, as it supports the HTTP functionality required to interact with the APIs at a low level.
+
+So while we won't be using cURL the whole week, it is good to learn to understand how your computer can interact with other computers without getting your browser involved. If you find cURL really exciting, I recommend the Google Data article ["Using cURL"](https://developers.google.com/gdata/articles/using_cURL)
 
 ## HTTP
 
@@ -36,6 +44,8 @@ HTTP has a number of **methods** that determine which way information is flowing
 
 ## curl Commands
 
+### GET
+
 The most common curl command is to GET a URL. The URL could itself refer to a web page, an image or a file. The client issues a GET request to the server and receives the information (document, image, etc)  it asked for. If, in your terminal, you you issue the command:
 
 ``` curl https://curl.haxx.se ```
@@ -48,7 +58,7 @@ If you're familiar with HTML, you will recognize the contents of a fairly conven
 
 All HTTP replies contain a set of response headers that are normally hidden, use curl's `--include` (`-i`) option to display them as well as the rest of the document.
 
-Compare these results
+Compare these results:
 
 ``` 
 $ curl https://curl.haxx.se
@@ -63,7 +73,7 @@ $ curl https://curl.haxx.se
 </head>
  ```
 
-to 
+to these:
 
 ``` 
 $ curl -i https://curl.haxx.se 
@@ -120,28 +130,6 @@ will return the same results as
 
 ``` curl https://curl.haxx.se -i ```
 
-
-### Multiple requests
-
-You can send requests to multiple URLs in one command, and you can send requests with different HTTP protocols to one URL.
-
-two GETs:
-
-	curl http://url1.example.com http://url2.example.com
-
-or two POSTS:
-
-	curl --data name=curl http://url1.example.com http://url2.example.com
-
-Multiple cURL options in a single command:
-
-to send a HEAD then a GET:
-
-	curl -I http://example.com --next http://example.com
-
-or to send a POST then a GET:
-
-	curl -d score=10 http://example.com/post.cgi --next http://example.com/results.html
 
 ### Some fun curl commands
 
