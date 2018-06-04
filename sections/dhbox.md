@@ -3,19 +3,17 @@ title: A Tour of DH Box
 author: Jonathan Reeve
 ---
 
-DH Box is a cloud computing platform for the digital humanities. A DH Box is a single cloud computing workstation. This just means it's a computer that lives in the Internet, rather than on your laptop. Everything you can do on a DH Box you can also do on your own computer. But if you used your own computer, it might take a while to set up all the software just right. DH Box already has all the software you need, and it's all configured correctly. This allows you to get right to work, without spending hours installing and configuring software.
+DH Box is a cloud computing platform for the digital humanities. _A_ DH Box is a single cloud computing workstation. This just means it's a computer that lives in the Internet, rather than on your laptop. Everything you can do on a DH Box you can also do on your own computer. But if you used your own computer, it might take a while to set up all the software just right. DH Box already has all the software you need, and it's all configured correctly. This allows you to get right to work, without spending hours installing and configuring software.
 
-If you're using DH Box, chances are you're using it in the context of a digital humanities workshop. If that's the case, your workshop instructor will probably provide you with a username and password, which you can use to log in to the system. Use this username and password whenever you're prompted for them. Additionally, whenever you read "demonstration" below, substitute your username. 
-
-Otherwise, let's make a demonstration DH Box. In your favorite web browser (use Google Chrome for best results), go to [dhbox.org](http://dhbox.org) and click "start hour-long demo." This will make a new DH Box for you with the username "demonstration" and the password "demonstration." Whenever you're prompted for a username or password, enter those.
+If you're using DH Box, chances are you're using it in the context of a digital humanities workshop. If that's the case, your workshop instructor will probably provide you with a username and password, which you can use to log in to the system. Use this username and password whenever you're prompted for them.
 
 ## Working with Files
 
-You can get files into and out of a DH Box in a number of ways. Let's start by using the file manager. Download a plain text file (a file with the .txt) from the Internet. As an example, we can use the Project Gutenberg edition of Alice's Adventures in Wonderland, which you can get from [gutenberg.org/files/11/11-0.txt](http://www.gutenberg.org/files/11/11-0.txt). Go to that website, and save the file to your computer. This can usually be done by choosing "save as" from your web browser's File menu, or by right-clicking on the page and choosing "save page as." Now, in DH Box, go to your DH Box's File Manager tab, and click the "upload" button. Choose the file you just downloaded, which should be called 11-0.txt. Now you have a text file in your DH Box, saved to the `/home` directory. Let's do things with it. 
+You can get files in and out of a DH Box in a number of ways. Let's start by using the file manager. Download a plain text file (a file with the .txt) from the Internet. As an example, we can use the Project Gutenberg edition of Alice's Adventures in Wonderland, which you can get from [gutenberg.org/files/11/11-0.txt](http://www.gutenberg.org/files/11/11-0.txt). Go to that website, and save the file to your computer. This can usually be done by choosing "save as" from your web browser's File menu, or by right-clicking on the page and choosing "save page as." Now, in DH Box, go to your DH Box's File Manager tab, and click the "upload" button. Choose the file you just downloaded, which should be called 11-0.txt. Now you have a text file in your DH Box, saved to the `/home` directory. Let's do things with it. 
 
-Go to the "command line" tab and log in using your username and password. If you're using the demonstration box, the username is "demonstration" and the password is "demonstration." Note that you won't see any text appear on the screen as you type in your password. 
+Go to the "command line" tab and log in using your username and password. Note that you won't see any text appear on the screen as you type in your password. 
 
-First, see what directory you're in by typing the command `pwd` and pressing enter (`pwd` stands for "print working directory"). It should say something like `/home/demonstration`. 
+First, see what directory you're in by typing the command `pwd` and pressing enter (`pwd` stands for "print working directory"). It should say something like `/home/username`, where "username" is your DH Box user name. Since I'm using the demonstration DH Box, for instance, I see `/home/demonstration`.
 
 ![](images/tour-pwd.png)
 
@@ -49,7 +47,8 @@ Let's read in our file and do some things with it. In a new cell, enter the comm
 
 ![](images/tour-python-alice.png)
 
-For more on text analysis, see the file [text-analysis-tutorial.md](https://github.com/DH-Box/docs/blob/master/text-analysis-tutorial.md) in [the DH Box documentation repository](https://github.com/DH-Box/docs). 
+Now you're ready to start analyzing the text! Fun digital humanities projects, here we come. For more on text analyses, see my tutorial
+[text-analysis-tutorial.md](https://github.com/DH-Box/docs/blob/master/text-analysis-tutorial.md) in [the DH Box documentation repository](https://github.com/DH-Box/docs). 
 
 ## Fun with APIs
 
