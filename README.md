@@ -17,27 +17,27 @@ To prepare for this course, please:
 - [Introduction](sections/introduction.md)
 - [What is an API?](sections/WhatIsAPI.md)
 - [Tour of DH Box](sections/dhbox.md)
+- [Introduction to the command line](command-line/README.md)
 
 [Homework: Find an API; prepare to present it to the class](sections/homework1.md)
 
 ### Day Two 
 
-- [API presentations](sections/APIpresentations.md)
-- [Introduction to command line](sections/command-line/README.md)
-- [Requests with cURL](curl.md)
-- [Python I](python/README.md)
+- [API research presentations](sections/APIpresentations.md)
+- - [Continued command line](command-line/README.md)
+- [Requests with cURL](sections/curl.md)
+- [Introduction to Python](python/README.md)
 
-[Homework: Develop research question](sections/homework2.md)
+[Homework: Develop a research question](sections/homework2.md)
 
 ### Day Three 
 
-- [Review of Research Questions](questions.md)
-- [Python II](python/README.md)
-- [APIs in Python](apipython.md)
-- [Requests: Chronicling America](https://programminghistorian.org/lessons/creating-apis-with-python-and-flask##using-apis)
+- [Discussion: Research Questions](sections/questions.md)
+- [Collecting and Processing API Data with Requests](sections/requests-session/README.md)  
 - [Reading documentation](sections/API_Documentation.md)
+- [Self Directed Exploration: The New York Times API](sections/exploratory.md)
 
-[Homework: Attempt to connect to your API and collect data](homework3.md)
+[Homework: Collecting data](sections/homework3.md)
 
 ### Day Four
 

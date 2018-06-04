@@ -1,5 +1,5 @@
 
-[<<< Previous](README.md) | [Next >>>](text-editors.md)
+[<<< Previous](//README.md) | [Next >>>](text-editors.md)
 
 ### What is the command line?
 

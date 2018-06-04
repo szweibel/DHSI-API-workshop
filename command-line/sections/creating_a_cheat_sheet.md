@@ -21,7 +21,7 @@ Now let's check the contents of the directory:
 
 ```
 $ pwd
-/Users/jojo/projects
+/home/jojokarlin/projects
 $ ls
 cheat-sheet.txt
 ```
@@ -49,15 +49,11 @@ For your digital best practices, we recommend making sure that file names contai
 
 ### Using a text editor
 
-The challenge for this section will be using a text editor to add some of the commands that we've learned to the newly created cheat sheet. Text editors are programs that allow you to edit plain text files, such as .txt, .py (Python scripts), and .csv (spreadsheet files). Remember not to use programs such as Microsoft Word to edit text files, since they add invisible characters that can cause problems. 
+The challenge for this section will be using your DH Box text editor, Brackets, to add some of the commands that we've learned to the newly created cheat sheet. Text editors are programs that allow you to edit plain text files, such as .txt, .py (Python scripts), and .csv (spreadsheet files). Remember not to use programs such as Microsoft Word to edit text files, since they add invisible characters that can cause problems. 
 
 ## Challenge
 
-From your programs menu, via Finder or Applications or Launchpad in Mac OSX, via Windows button in Windows, open your Visual Studio Code text editor:
-
-	code cheat-sheet.txt
-
-Type to add the commands we've learned so far to the file. Include descriptions about what each command does. Remember -- this cheat sheet is for you. Write descriptions that make sense to you or take notes about questions.
+In your DH Box browser, open your `Brackets` text editor. Add the commands we've learned so far to the file. Include descriptions about what each command does. Remember -- this cheat sheet is for you. Write descriptions that make sense to you or take notes about questions.
 
 Save the file.
 

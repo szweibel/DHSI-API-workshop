@@ -5,7 +5,7 @@
 
 ### What Is Text?
 
-Before we explain which program we'll be using for editing text, we want to give a general sense of this "text" we keep mentioning. For those of us in the humanities, whether we follow literary theorists who read any object as a "text" or we dive into philology, paleography, codicology or any of the fields [David Greetham](https://en.wikipedia.org/wiki/David_Greetham_(textual_scholar)) lays out in *Textual Scholarship*, "text" has its specific meanings. As humanities scholars working with computers, we need to be aware of the ways plain text and formatted text differ. Words on a screen may have hidden formatting. Many of us grew up using Microsoft Word and don't realize how much is going on behind the words shown on the screen. For the purposes of communicating with the computer and for easier movement between different programs, we need to use text without hidden formatting.
+Before we explain text-based computing, we want to give a general sense of this "text" we keep mentioning. For those of us in the humanities, whether we follow literary theorists who read any object as a "text" or we dive into philology, paleography, codicology or any of the fields [David Greetham](https://en.wikipedia.org/wiki/David_Greetham_(textual_scholar)) lays out in *Textual Scholarship*, "text" has its specific meanings. As humanities scholars working with computers, we need to be aware of the ways plain text and formatted text differ. Words on a screen may have hidden formatting. Many of us grew up using Microsoft Word and don't realize how much is going on behind the words shown on the screen. For the purposes of communicating with the computer and for easier movement between different programs, we need to use text without hidden formatting.
 
 ![Word Doc](worddoc.png)
 
@@ -23,11 +23,11 @@ While it doesn't really matter which text editor you choose, you should try to b
 
 ### Default Recommendation
 
-Choosing a text editor has as much to do with personality as it does with functionality. For our workshops, we will be using [Visual Studio Code](https://code.visualstudio.com/). Not only is Visual Studio Code free and open source, but it is also consistent across OSX, Windows, and Linux systems.
+Choosing a text editor has as much to do with personality as it does with functionality. For our workshops, we will be using Brackets in DH Box. The advantage of working in the DH Box workspace is that it will work the same regardless of your system -- OSX, Windows, Linux, etc..
 
-Take a moment to download now. We won't be using the editor a lot in this tutorial, so don't worry about getting to know the editor now. In later workshops we will discuss syntax highlighting and version control, which Visual Studio Code supports. For now we will get back to working in the command line itself.
+We won't be using the editor a lot in this tutorial, so don't worry about getting to know the editor now. For now we will get back to working in the command line itself.
 
 [<<< Previous](what-is-the-command-line.md) | [Next >>>](why-is-the-command-line-useful.md)
 
 
-[More information about text editors](text-editors-ides.md) can be found in the resources at the end of the lesson. 
+[More information about text editors](text-editors-ides.md) can be found in the resources at the end of the lessson. 

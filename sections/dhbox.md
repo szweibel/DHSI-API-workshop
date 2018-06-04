@@ -89,8 +89,8 @@ To learn more about the command line there are tons of introductory tutorials on
 
 There are even interactive tutorials at sites like codecademy.com, which also has free interactive Python tutorials. To learn more about Python, try searching for "python tutorial" on YouTube, or visit one of these sites: 
 
- - https://programminghistorian.org/lessons/?topic=python
- - http://introtopython.org/
-
+- [Python lessons on Programming Historian](https://programminghistorian.org/en/lessons/?topic=python)
+- [Introduction to Python](http://introtopython.org/)
+- [Python resources on the GC Digital Fellows blog](https://digitalfellows.commons.gc.cuny.edu/2016/09/23/python-resources/)
 
 [<<< Previous](WhatIsAPI.md) | [Next >>>](homework1.md)

@@ -1,6 +1,6 @@
 # Introduction to the Command Line
 
-Today we will be getting comfortable working in the command line tool in DH Box. Typically, to access command line interface, you would use the Terminal application in Mac OS or the Bash Shell in Windows. The advantage of doing our work this week in DH Box is that within DH Box you cannot accidentally delete or overwrite files or otherwise endanger the file system of your personal computer. The power of the command line to execute permanent action is one of its assets, but it helps to get started in a space with more room for error.
+Today we will be getting comfortable working in the command line tool in DH Box. Typically, to access command line interface, you would use the Terminal application in Mac OS or the Bash Shell in Windows. The advantage of doing our work this week in DH Box is that within DH Box you cannot accidentally delete or overwrite files or otherwise endanger the file system of your personal computer. The power of the command line to execute permanent action is one of its assets, but working in DH Box helps to get started in a space with more room for error.
 
 By this point in our academic careers, most of us have figured out some ways we like to interact with computers. Whether that involves avoiding them as much as possible or constantly testing new software, we likely have some ideas about how we feel comfortable getting things done. How would you show a person who had never seen a computer, say [Kimmy Schmidt](https://youtu.be/LIdFa1qLgNQ) or [Brendan Fraser in *Blast from the Past*](https://youtu.be/Xq29uTtKW4M), how to *do* something on your computer? 
 
@@ -31,7 +31,7 @@ In this session, we'll learn those common commands by exploring and manipulating
 [Further challenges](sections/challenges.md)  
 [Glossary](sections/glossary.md)  
 
-[Get Started >>>]((what-is-the-command-line.md))
+[Get Started >>>]((sections/what-is-the-command-line.md))
 
 -----
 
