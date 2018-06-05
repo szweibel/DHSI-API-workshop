@@ -26,7 +26,7 @@ To prepare for this course, please:
 
 - [API research presentations](sections/APIpresentations.md)
 - [Introduction to Python](python/README.md)
-- [Python continued]
+- [Requests](sections/requests-session/README.md)
 
 **[Jonathan's Judging Books' Covers](https://github.com/szweibel/DHSI-API-workshop/blob/master/example-judging-covers.ipynb)**
 
