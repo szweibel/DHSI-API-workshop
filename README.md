@@ -18,15 +18,17 @@ To prepare for this course, please:
 - [What is an API?](sections/WhatIsAPI.md)
 - [Tour of DH Box](sections/dhbox.md)
 - [Introduction to the command line](command-line/README.md)
+- [Requests with cURL](sections/curl.md)
 
 [Homework: Find an API; prepare to present it to the class](sections/homework1.md)
 
 ### Day Two 
 
 - [API research presentations](sections/APIpresentations.md)
-- - [Continued command line](command-line/README.md)
-- [Requests with cURL](sections/curl.md)
 - [Introduction to Python](python/README.md)
+- [Python continued]
+
+**[Jonathan's Judging Books Covers](https://github.com/szweibel/DHSI-API-workshop/blob/master/example-judging-covers.ipynb)**
 
 [Homework: Develop a research question](sections/homework2.md)
 
