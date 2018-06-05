@@ -41,7 +41,7 @@ If you [follow the above link](http://chroniclingamerica.loc.gov/search/pages/re
       "end_year": 1939,
 ```
 
-Note that, while the total results of our search total more tha 6,000,000, far fewer have been presented to us. Because Chronicling America has so much data, they have opted to paginate data that is returned—what we see here is only the first 20 pages. If we wanted to see the next 20 pages, we would add `?page=21` to start the index at page 21.
+Note that, while the total results of our search total more than 6,000,000, far fewer have been presented to us. Because Chronicling America has so much data, they have opted to paginate data that is returned—what we see here is only the first 20 pages. If we wanted to see the next 20 pages, we would add `?page=21` to start the index at page 21.
 
 By making requests to the Chronicling America API, we've accessed information on news stories that contain the search term "fire," and returned data that includes the date of publication and the page the article appears on. If we were to pursue this research question further, a next step might be finding how many stories relating to fire appear on a newspaper's front page over time, or perhaps cleaning the data to reduce the number of false positives. As we have seen, however, exploring an API can be a useful first step in gathering data to tackle a research question.
 

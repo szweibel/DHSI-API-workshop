@@ -140,7 +140,7 @@ Cool, but we already knew that our request was successful. Let's try another:
 
 	>>> all_newspapers.text
 	
-You should see output with data from the request in (messy) JSON format. THat's more like it!
+You should see output with data from the request in (messy) JSON format. That's more like it!
 
 When you encounter an object, how can you learn its methods and atributes so you can use them? There are two main ways. The first, and likely the most practical, is to [read the documentation of the library you're using](http://docs.python-requests.org/en/master/). 
 

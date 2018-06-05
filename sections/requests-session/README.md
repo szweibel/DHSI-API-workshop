@@ -3,7 +3,7 @@
 Web APIs are tools for making information and application functionality accessible over the internet. In this lesson, you will:
 
 - Use the requests library in Python to communicate with an API
-- Explore returned data program
+- Explore returned data programatically
 - Parse and clean returned data
 
 This lesson has been adapted from [Creating Web APIs with Python and Flask](https://programminghistorian.org/en/lessons/creating-apis-with-python-and-flask) by Patrick Smyth,  edited by Brandon Walsh, and reviewed by Ryan Deschamps and Megan Kudzia. This lesson was originally published on [The Programming Historian](https://programminghistorian.org/).
