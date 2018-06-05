@@ -2,9 +2,9 @@
 
 Web APIs are tools for making information and application functionality accessible over the internet. In this lesson, you will:
 
-- Learn what an API is and when you should use one.
-- Learn how to build a web API that returns data to its users.
-- Learn some principles of good API design, applying them to an API that draws book metadata from a database.
+- Use the requests library in Python to communicate with an API
+- Explore returned data programatically
+- Parse and clean returned data
 
 This lesson has been adapted from [Creating Web APIs with Python and Flask](https://programminghistorian.org/en/lessons/creating-apis-with-python-and-flask) by Patrick Smyth,  edited by Brandon Walsh, and reviewed by Ryan Deschamps and Megan Kudzia. This lesson was originally published on [The Programming Historian](https://programminghistorian.org/).
 
