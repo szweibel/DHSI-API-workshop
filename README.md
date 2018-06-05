@@ -28,7 +28,7 @@ To prepare for this course, please:
 - [Introduction to Python](python/README.md)
 - [Python continued]
 
-**[Jonathan's Judging Books Covers](https://github.com/szweibel/DHSI-API-workshop/blob/master/example-judging-covers.ipynb)**
+**[Jonathan's Judging Books' Covers](https://github.com/szweibel/DHSI-API-workshop/blob/master/example-judging-covers.ipynb)**
 
 [Homework: Develop a research question](sections/homework2.md)
 
