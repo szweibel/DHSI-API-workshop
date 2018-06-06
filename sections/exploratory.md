@@ -1,4 +1,4 @@
-# Self Directed Exploration: THe New York Times API
+# Self Directed Exploration: The New York Times API
 
 In this session, you will use some of the tools you have learned (cURL, your browser, Python, research) to explore an API on your own. This session will require patience, persistence, and willingness to try different approaches until you get the results you're looking for.
 
@@ -10,7 +10,7 @@ Take a look at the [set of New York Times APIs](https://developer.nytimes.com/),
 
 Create a new API key for your chosen API.
 
-1. Go to [his page](https://developer.nytimes.com/signup).
+1. Go to [this page](https://developer.nytimes.com/signup).
 2. Enter your name and email address.
 3. Enter a website. If you have a personal home page, enter that. Otherwise, enter the home page of your employer or university.
 4. From the dropdown, select the name of the API you're interested in, i.e. the Books API.
