@@ -28,7 +28,7 @@ print(me)
 
 # Update my status
 
-### api.update_status(status="Look at me! I'm using APIs! #NYCDHWeek @Digital_Fellows @mkgold")
+### api.update_status(status="Look at me! I'm using APIs! #DHSIAPI @DHInstitute @mkgold in the #mysticvale2019")
 
 # Perform a search
 
