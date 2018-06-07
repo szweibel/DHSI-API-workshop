@@ -32,7 +32,7 @@ print(me)
 
 # Perform a search
 
-### results = api.search(q="#NYCDHWeek")
+### results = api.search(q="#DHSIapi")
 ### for result in results:
 ###     print('\n')
 ###     print(result.text)
