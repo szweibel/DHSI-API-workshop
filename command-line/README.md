@@ -1,14 +1,10 @@
 # Introduction to the Command Line
 
-Today we will be getting comfortable working in the command line tool in DH Box. Typically, to access command line interface, you would use the Terminal application in Mac OS or the Bash Shell in Windows. The advantage of doing our work this week in DH Box is that within DH Box you cannot accidentally delete or overwrite files or otherwise endanger the file system of your personal computer. The power of the command line to execute permanent action is one of its assets, but working in DH Box helps to get started in a space with more room for error.
+Think about your (loving, or not-so-much) relationship with your computer. How do you navigate what is stored on it, or ask it to perform functions? Many of us use screen displays and a cursor to point and click on icons as a way of getting around. That's probably how you opened this web page, or your email this morning. Pointing and clicking relies on a graphical user interface, or GUI (pronounced "gooey!"), which is built to make things easier than navigating the big chunks of code that computers run on.
 
-By this point in our academic careers, most of us have figured out some ways we like to interact with computers. Whether that involves avoiding them as much as possible or constantly testing new software, we likely have some ideas about how we feel comfortable getting things done. How would you show a person who had never seen a computer, say [Kimmy Schmidt](https://youtu.be/LIdFa1qLgNQ) or [Brendan Fraser in *Blast from the Past*](https://youtu.be/Xq29uTtKW4M), how to *do* something on your computer? 
+But, if you know the right lexicon, you can talk directly to you computer. The primary way to do this is through the command line, which involves opening the Terminal application in a Mac operating system, and Bash Shell in Windows. In the window that appears, you can use a controlled list of commands to ask your computer to do certain things. For instance, you can write a command that creates a new folder on your desktop, and you'll watch it appear right before your eyes! Command line is just another way of making things happen. And even better: you can use 90% of the functionality of the command line by becoming comfortable with a very small set of the most common commands.
 
-Many of us would explain what a screen and a cursor are, and then show how to point and click on icons. This approach relies on a graphical user interface, or GUI (pronounced "gooey!"). 
-
-Today we're going to explore another way to make your computer do things: through the command line. While this new technique can seem intimidating if you haven't used text-based interfaces before, luckily, you can use 90% of the functionality of the command line by becoming comfortable with a very small set of the most common commands.
-
-In this session, we'll learn those common commands by exploring and manipulating a simple data set. By the end of the session, you'll be able to navigate your computer, create and manipulate files, and transform text-based data using only the command line. 
+By the end of the session, you'll be able to navigate your computer, create and manipulate files, and transform text-based data using only commands that you type within the command line. It'll feel like getting superpowers. And importantly, it will prime us to think of text-based interactions with our computers, as a preface to the type of work we'll do with Web APIs.
 
 [What's the command line?](sections/what-is-the-command-line.md)   
 [Working with text](sections/text-editors.md)  
@@ -35,8 +31,8 @@ In this session, we'll learn those common commands by exploring and manipulating
 
 -----
 
-Session Leader: Jojo Karlin  
-Based on previous work by Patrick Smyth and Mary Catherine McKinniburgh
+Session Leader: Mary Catherine Kinniburgh  
+Based on previous work by Patrick Smyth, Jojo Karlin, and Mary Catherine Kinniburgh
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
 
