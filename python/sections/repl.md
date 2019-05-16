@@ -4,7 +4,7 @@
 
 To start an interactive session with Python, type this at the `$` prompt and hit Enter. (Leave off the `$`, the text you're typing comes after the prompt.)
 
-	$ python3
+	$ python
 	
 You should see something like this
 
