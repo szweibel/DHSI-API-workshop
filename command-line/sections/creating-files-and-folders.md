@@ -1,8 +1,6 @@
 [<<< Previous](navigation.md) | [Next >>>](creating_a_cheat_sheet.md)  
 
-### Creating files and folders
-
-In DH Box, you won't see many folders or files just yet. It's an empty workspace. Let's get ourselves set up for our week.
+## Creating files and folders
 
 ### Creating a file
 
@@ -12,64 +10,57 @@ First, make sure you're in the home directory:
 
 ```
 $ pwd
-/home/jojokarlin
+/Users/mckinniburgh
 ```
 
-Now let's try a new command:
+Let's move to the Desktop folder with `cd`:
+
+```
+cd Desktop
+```
+
+Once you've made sure you're in the Desktop folder with `pwd`, let's try a new command:
 
 ```
 touch foo.txt
 ```
 
-If the command succeeds, you won't see any output. You can now look at the `File Manager` tab of your DH Box, which will look something like a Finder window on Mac OS or Start Menu on Windows. The graphical user interface (GUI), which refers to `File Manager` in this case, pertains to the visual layer applied to any program.
-
-![File Manager](filemanager.png)
-
-See any differences? If the command was successful and you were in the right place, you should see an empty text file called "foo.txt" in the home directory. (note - the [`touch`](https://en.wikipedia.org/wiki/Touch_(Unix)) command will not overwrite your document nor will it add another document to the same directory. It will update info about that file.)
+If the command succeeds, you won't see any output. Now move the terminal window and look at your "real" desktop, the graphical one. See any differences? If the command was successful and you were in the right place, you should see an empty text file called "foo.txt" on the desktop. Pretty cool, right?
 
 #### Handy tip: up arrow
 
-Let's say you liked that "foo.txt" file so much you'd like another! In the command line tab, press the "up arrow" on your keyboard. You'll notice this populates the line with the command that you just wrote. You can hit "Enter" to create another "foo.txt,"  or you could use your left/right arrows to change the file name to "foot.txt" to create something different. 
+Let's say you liked that "foo.txt" file so much you'd like another! In the terminal window, press the "up arrow" on your keyboard. You'll notice this populates the line with the command that you just wrote. You can hit "Enter" to create another "foo.txt," or you could use your left/right arrows to change the file name to "foot.txt" to create something different. 
 
-As we start to write more complicated and longer commands in our terminal, the "up arrow" is a great shortcut so you don't have to spend lots of time typing and to avoid typos of commands that you have previously run successfully. 
+As we start to write more complicated and longer commands in our terminal, the "up arrow" is a great shortcut so you don't have to spend lots of time typing. 
 
 ### Creating folders
 
-OK, so we're going to be doing a lot of work during the week. Let's create a project folder in our home directory so that we can keep all our work in one place.
+We've probably already got all sorts of files on our computer, so let's create a project folder on our Desktop so that we can keep all our work in one place. For what it's worth too, there's nothing really that special about "Desktop," except it's easy to confirm your work by using a GUI. 
 
-Once we return to the `Command Line` tab, make sure we're still in the home folder with `pwd`:
+First, let's check to make sure we're still in the Desktop folder with `pwd`:
 
 ```
 $ pwd
-/home/jojokarlin
+/Users/mckinniburgh/Desktop
 ```
 
-Once you've double-checked where we are, we'll use the command `mkdir`, short for "make directory," to make a folder called "projects":
+Once you've double-checked you're in Desktop, we'll use this command to make a folder called "projects":
 
 ```
 mkdir projects
 ```
 
-### More Navigation
-
-To see the contents of the directory we are in, rather than checking the `File Manager,` we can run the command `ls` to "list" the contents of our current working directory. In your home directory, type `ls` then `enter` to see if a projects folder has appeared. 
-
-```
-$ ls
-foo.txt projects
-```
-
-Once you confirm that the projects folder was created successfully, you can use the command `cd`, short for "change directory", into it. 
+So, you can navigate using the GUI to confirm this folder now exists, but what if you don't want to slow down to do this? What if you just want to check from your command line window? Go ahead and use the command `ls`, which will "list" the contents of the directory you're in. Once you confirm that the projects folder was created successfully, `cd` into it. 
 
 ```
 $ cd projects
 $ pwd
-/home/jojokarlin/projects
+/Users/mckinniburgh/Desktop/projects
 ```
 
-OK, now you've got a projects folder that you can use throughout the Institute. It should be visible on your graphical `File Manager`, just like the `foo.txt` file we created earlier. 
+OK, now you've got a projects folder that you can use throughout DHSI. It should be visible on your graphical desktop, just like the `foo.txt` file we created earlier. 
 
-[<<< Previous](navigation.md) | [Next >>>](creating_a_cheat_sheet.md)
+[<<< Previous](navigation.md) - [Next >>>](creating_a_cheat_sheet.md)
 
 ### Example
 
