@@ -13,11 +13,11 @@ For the first homework, we invite you to explore a list of APIs to see which dat
 
 Key questions:
 
-- Why might this AP be valuable to research?
+- Why might this API be valuable to research?
 - What could you (or couldn't you) research with it?
 - How can you access it?
-- What format is the data?
-- Are there proprietary considerations? Who owns the data?
+- In what format is the data?
+- Are there legal or licensing considerations? Who owns the data?
 
 [Return to schedule](../README.md)
 

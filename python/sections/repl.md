@@ -1,12 +1,12 @@
-[<<< Previous](installation.md) | [Next >>>](types.md)
+[<<< Previous](../README.md) | [Next >>>](types.md)
 
-## Interacting with Python
+# Interacting with Python
 
-To start an interactive session with Python, type this at the `$` prompt and hit Enter. (Leave off the `$`, the text you're typing comes after the prompt.)
+To start an interactive session with Python, open your terminal and type
 
 	$ python
 	
-You should see something like this
+at the prompt. 	You should see something like this
 
 ```
 Python 3.6.3 |Anaconda, Inc.| (default, Oct 13 2017, 12:02:49) 
@@ -25,7 +25,7 @@ Keep an eye on this, as a common early source of confusion is entering terminal 
 
 ### A Little Math
 
-Let's try a little math at the Python prompt:
+Let's try a little math at the Python prompt. In the example below, type the text that appears after the Python prompt (the `>>>`). The line below is the output that is returned. This will be a standard convention when giving examples using the Python prompt.
 
 ```
 >>> 2 + 3
@@ -51,4 +51,4 @@ The REPL is useful for quick tests and, later, can be used for exploring and deb
 1. For a few minutes, practice moving in and out of Python's interactive mode (also known as the REPL). You can get out of Python by hitting `Control-d` or by typing `exit()`, and you can get back in by typing `python` at the `$` prompt. Remember that you're in the REPL when you see `>>>`, and you're in bash when you see the `$`.
 2. One "operator" (math symbol) we didn't learn is the exponent—you know, "x raised to the power of..."  If you were Guido van Rossum, the creator of Python, how would you define this operator? Look up the exponent operator in Python on Google and see how close you were.
 
-[<<< Previous](installation.md) | [Next >>>](types.md)
+[<<< Previous](../README.md) | [Next >>>](types.md)

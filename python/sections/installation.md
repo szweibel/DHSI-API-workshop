@@ -1,11 +1,19 @@
 [Next >>>](repl.md)
 
-# Getting ready
+### Installation
 
-Today, we'll start in the command line to begin working with Python. 
+For these exercises, we will be using Anaconda, a version of Python that comes packaged with useful libraries for working with natural language and scientific data. 
 
-If you need a reminder, follow the instructions on [Getting to the Command Line](command-line/sections/getting-to-the-command-line.md) from our prior tutorial.
+To download Anaconda, [follow this link](https://www.continuum.io/downloads) and click the button for your operating system and Python 3.x (3.6 at the time of this writing). You want the 64-bit, graphical installer version.
 
-Once you see the prompt (your username and a `$`) you're in the right place for the next part of this session.
+After installation, to test that Anaconda is working correctly, type 
+
+    $ python --version
+
+in your terminal. If Anaconda is working, your output should look like this:
+
+	Python 3.6.4:: Anaconda 2.5.0 (64-bit)
+
+Note that to get this output you may need to refresh your terminal by typing `exec $SHELL` in the prompt (including the `$`) or by closing and reopening the terminal.
 
 [Next >>>](repl.md)

@@ -1,10 +1,10 @@
 [<<< Previous](types.md) | [Next >>>](run.md)
 
-## Variables
+# Variables
 
-A variable is a symbol that refers to an object, such as a string, integer, or list. If you're not already at the Python prompt, open a window for the command line and type `python` at the `$`. Remember, you're in the right place when you see `>>>`.
+A variable is a symbol that refers to an object, such as a string, integer, or list. If you're not already at the Python prompt, open your terminal and type `python` at the `$`. You're in the right place when you see `>>>`.
 
-Try these commands in order. You're entering the text after the `>>>` prompt, and the text below shows the output you should see.
+Try these commands in order:
 
 ```
 >>> x = 5
@@ -33,7 +33,9 @@ Variables can be longer words as well:
 
 Variables can have letters, numbers, and underscores, but should start with a letter. 
 
-### Challenge
+If you are curious about learning more about naming conventions for variables, you can check out the PEP8 style guide's section on [Naming Conventions](https://www.python.org/dev/peps/pep-0008/#naming-conventions). PEP8 is the widely accepted guide for Python programmers everywhere. 
+
+## Challenge
 
 So I just told you that variables shouldn't start with a number or an underscore. What does that even mean? Will your computer explode if you write `3_flower = "buttercup"`?
 
