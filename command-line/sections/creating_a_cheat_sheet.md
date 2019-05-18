@@ -21,7 +21,7 @@ Now let's check the contents of the directory:
 
 ```
 $ pwd
-/home/jojokarlin/projects
+/Users/patrick/projects
 $ ls
 cheat-sheet.txt
 ```
@@ -49,19 +49,17 @@ For your digital best practices, we recommend making sure that file names contai
 
 ### Using a text editor
 
-The challenge for this section will be using your DH Box text editor, Brackets, to add some of the commands that we've learned to the newly created cheat sheet. Text editors are programs that allow you to edit plain text files, such as .txt, .py (Python scripts), and .csv (spreadsheet files). Remember not to use programs such as Microsoft Word to edit text files, since they add invisible characters that can cause problems. 
+The challenge for this section will be using a text editor to add some of the commands that we've learned to the newly created cheat sheet. Text editors are programs that allow you to edit plain text files, such as .txt, .py (Python scripts), and .csv (spreadsheet files). Remember not to use programs such as Microsoft Word to edit text files, since they add invisible characters that can cause problems. For today, you can use a notepad that's already on your computer.
 
-## Challenge
+# Challenge
 
-In your DH Box browser, open your `Brackets` text editor. Add the commands we've learned so far to the file. Include descriptions about what each command does. Remember -- this cheat sheet is for you. Write descriptions that make sense to you or take notes about questions.
-
-Save the file.
+Open a text editor and select File > Open file from the menu bar. Add the commands we've learned so far to the file. Include descriptions about what each command does. When you're done, save the file by selecting File > Save from the menu bar.
 
 Once you're done, check the contents of the file on the command line with the `cat` command:
 
 ```
 $ cat cheat-sheet.txt
-My Institute Cheat Sheet
+My DHSI Cheat Sheet
 
 ls
 lists files and folders in a directory
