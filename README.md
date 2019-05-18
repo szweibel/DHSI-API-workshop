@@ -6,7 +6,7 @@ Repository for the Web APIs with Python workshop at the Digital Humanities Summe
 
 To prepare for this course, please:
 
-- Review the provided readings in the course pack.
+- Review the provided readings in the [course pack](coursepack_dhsi.pdf).
 - Consider the list of APIs, and think of which you might like to use.
 - Bring an idea or two for projects or research you would like to pursue.
 
