@@ -2,7 +2,7 @@
 
 ## Variables
 
-A variable is a symbol that refers to an object, such as a string, integer, or list. If you're not already at the Python prompt, open the "Command Line" tab in DH Box and type `python3` at the `$`. You're in the right place when you see `>>>`.
+A variable is a symbol that refers to an object, such as a string, integer, or list. If you're not already at the Python prompt, open a window for the command line and type `python` at the `$`. Remember, you're in the right place when you see `>>>`.
 
 Try these commands in order. You're entering the text after the `>>>` prompt, and the text below shows the output you should see.
 
