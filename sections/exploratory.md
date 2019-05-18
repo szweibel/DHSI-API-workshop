@@ -4,22 +4,22 @@ In this session, you will use some of the tools you have learned (cURL, your bro
 
 ## Task One: Research
 
-Take a look at the [set of New York Times APIs](https://developer.nytimes.com/), which include APIs for the Times archive, books, and "semantic"—knowledge-based—search. Pick one and do a little research on it, including glancing at its documentation and trying a Google search about it. What do you think it does? What kind of data might it return? Though you don't know what the API does yet in concrete terms, try to think of a question you might answer using it. This question might be related to your research, or it might not.
+Take a look at the [set of New York Times APIs](https://developer.nytimes.com/apis), which include APIs for the Times archive, books, and "semantic"—knowledge-based—search. Pick one and do a little research on it, including glancing at its documentation and trying a Google search about it. What do you think it does? What kind of data might it return? Though you don't know what the API does yet in concrete terms, try to think of a question you might answer using it. This question might be related to your research, or it might not.
 
 ## Task Two: Request a Key
 
 Create a new API key for your chosen API.
 
-1. Go to [this page](https://developer.nytimes.com/signup).
-2. Enter your name and email address.
-3. Enter a website. If you have a personal home page, enter that. Otherwise, enter the home page of your employer or university.
-4. From the dropdown, select the name of the API you're interested in, i.e. the Books API.
-5. Complete the CAPTCHA and click `Create API Key`.
-6. Check your email and copy your key into a text file for reference, making sure not to include any whitespace or additional characters.
+1. Go to [this page](https://developer.nytimes.com/accounts/create).
+2. Fill out the form and do the annoying CAPTCHA.
+3. Once you're signed in, click your username on the top right. On the dropdown, click Apps. Click the big button to create an app.
+4. Enter a name and description for your notional app. We're not really making an app, but these fields are required, so make something up. Then click the "on" buttons next to the APIs you think you might use.
+5. Click "Create" in the top right.
+6. You should see a field with your API key information appear. Copy out the text under the "key" heading and the text under the "secret" heading and paste them in your text editor for use. Make sure you get all the text copied and that you know which is the key and which is the secret.
 
 ## Task Three: How does it work?
 
-As this is a self-directed exercise, you will now attempt to figure out how the New YOrk Times API works. In particular, you're looking for this information:
+As this is a self-directed exercise, you will now attempt to figure out how the New York Times API works. In particular, you're looking for this information:
 
 1. The "base URL"—the part of any request that is consistent across all requests to the API. You may find this mentioned explicitly or your may infer it from API examples.
 2. The authentication process—that is, how you use your API key to identify yourself to the service. In some cases, this is passed as part of the heading. In other cases, it may be given as part of the request path, or as a query parameter (the part of the URL after the `?`).
@@ -49,16 +49,9 @@ you might create a function that looks liek this:
 import requests
 
 def search_movies(genre, year):
-	request = 'http://developer.movieapi.com?genre=%s&year=%s' % (genre, year)
+	request = f'http://developer.movieapi.com?genre={genre}&year={year}'
 
 	requests.get(request)
 	
 search_movies('horror', '1987')
 ```
-
-
-
-
-
-
-
