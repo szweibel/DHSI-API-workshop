@@ -10,13 +10,13 @@ According to Google's Data API's article,
 
 > cURL is a command-line application for performing requests using a variety of protocols including HTTP. cURL is often used by developers to test Google Data services, as it supports the HTTP functionality required to interact with the APIs at a low level.
 
-So while we won't be using cURL the whole week, it is good to learn to understand how your computer can interact with other computers without getting your browser involved. If you find cURL really exciting, I recommend the Google Data article ["Using curl"](https://developers.google.com/gdata/articles/using_curl)
+So while we won't be using cURL the whole week, it is good to learn to understand how your computer can interact with other computers without getting your browser involved. If you find cURL really exciting, I recommend the Google Data article ["Using curl"](https://developers.google.com/gdata/articles/using_curl).
 
 ## HTTP
 
 HTTP is the protocol used to fetch data from web servers. The protocol also allows information to get sent to the servers.
 
-The client, cURL, sends a HTTP request. The request contains a method (like GET, POST, HEAD etc), a number of request headers and sometimes a request body. The HTTP server responds with a status line (indicating if things went well), response headers and most often also a response body. The "body" part is the plain data you requested, like the HTML or the image, etc.
+The client, cURL, sends a HTTP request. The request contains a method (like GET, POST, HEAD etc), a number of request headers, and sometimes a request body. The HTTP server responds with a status line (indicating if things went well), response headers, and most often also a response body. The "body" part is the plain data you requested, like the HTML or the image, for instance.
 
 If you want to see what's going on, you can use cURL's option --verbose (-v as a short option), to display the commands cURL is sending to the server.
 
@@ -184,7 +184,5 @@ To limit the rate of data transfer to 1 Kilobytes/sec
 To download via a proxy server
 
 	curl -x proxy.example.com:3128 http://www.tutorialspoint.com/unix/
-
-
 
 These examples are derived from the [curl official tutorial](https://curl.haxx.se/docs/httpscripting.html).
