@@ -16,6 +16,6 @@ For extra credit, once you're done, use a redirect (remember the command line se
 
 ## Challenge Three
 
-In the first homework assignment, you researched an API that might contain data of interest to your research. On Day Two, you developed a research question that might be answered with your API. For this challenge, start thinking about [tongiht's homework assignment early](../../homework3.md). You'll be trying to figure out how to access your chosen API from scratch by doing many of the things we've covered in this session. Don't worry if this seems intimidating...we'll be doing more to prepare you this afternoon.
+In the first homework assignment, you researched an API that might contain data of interest to your research. On Day Two, you developed a research question that might be answered with your API. For this challenge, start thinking about [tonight's homework assignment early](../../homework3.md). You'll be trying to figure out how to access your chosen API from scratch by doing many of the things we've covered in this session. Don't worry if this seems intimidating...we'll be doing more to prepare you this afternoon.
 
 [<<< Previous](transform.md) | [Back to beginning >>>](../README.md)
