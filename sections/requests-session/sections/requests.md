@@ -4,9 +4,9 @@
 
 Thus far in these sessions we've done a lot of preparation and learned a lot of concepts. Let's now get our hands dirty and use Python to explore some results from the Chronicling America API. Instead of using the browser to peek at results in JSON, we'll pull these results into our Python environment and step through the results.
 
-In DH Box, click the Command Line tab and log in. Once you're at the prompt (your username and the `$`), type
+In your computer, click the Command Line tab and log in. Once you're at the prompt (your username and the `$`), type
 
-	python3
+	python
 	
 to open the REPL. The prompt should change to look like this, showing that you are interacting directly with Python:
 
@@ -55,7 +55,7 @@ Once you're back at the "normal" command line (also known as "bash"), enter this
 	
 You will have to enter your login password again for this to work. Once it's finished, re-enter the REPL by typing
 
-	python3
+	python
 	
 and test whether requests was successfully installed by typing
 
@@ -98,7 +98,7 @@ The output should look something like this excerpt:
 
 This output is a little more comprehensible than our search output when we were looking for information on historical fires—there's no complicated pagination. This makes it useful for us to explore on our first run with requests.
 
-Head back to the command line tab in DH Box and enter this line to grab the JSON output and save it to the `all_newspapers` variable.
+Head back to the command line and enter this line to grab the JSON output and save it to the `all_newspapers` variable.
 
 	>>> all_newspapers = requests.get('https://chroniclingamerica.loc.gov/newspapers.json')
 
