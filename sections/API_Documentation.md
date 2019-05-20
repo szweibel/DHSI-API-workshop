@@ -33,7 +33,7 @@ How would the following work? This from the built-in Python API.
 
 Here’s another API example:
 ```
-requests.get(url, params=None, &ast;&ast;kwargs)[source]
+requests.get(url, params=None, **kwargs)[source]
 Sends a GET request.
 
 Parameters:
