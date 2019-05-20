@@ -4,7 +4,7 @@
 
 Thus far in these sessions we've done a lot of preparation and learned a lot of concepts. Let's now get our hands dirty and use Python to explore some results from the Chronicling America API. Instead of using the browser to peek at results in JSON, we'll pull these results into our Python environment and step through the results.
 
-In your computer, click the Command Line tab and log in. Once you're at the prompt (your username and the `$`), type
+In your computer, navigate to the command line. Once you're at the prompt (your username and the `$`), type
 
 	python
 	
