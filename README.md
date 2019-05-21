@@ -45,10 +45,10 @@ To prepare for this course, please:
 - [Exploring & Visualizing Your Data Set](sections/visualization.ipynb)
 - [Visualizing Your Data Set, Continued](sections/visualization2.ipynb)
 - [Creating Twitterbots with the Twitter API](twitter-api/README.md)
-- [Lab: Exploring Your Data](lab2.md)
+- Lab
 
 [Homework: Work on presentation](homework4.md)
 
 ### Day Five
 
-- [Lab](day5lab.md)
+- Lab
