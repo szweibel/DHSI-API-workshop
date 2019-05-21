@@ -26,14 +26,14 @@ To prepare for this course, please:
 - [API research presentations](sections/APIpresentations.md)
 - [Introduction to Python](python/README.md)
 
-**[Jonathan's Judging Books' Covers](https://github.com/szweibel/DHSI-API-workshop/blob/master/example-judging-covers.ipynb)**
+**[Example: Jonathan's Judging Books' Covers](example-judging-covers.ipynb)**
 
 [Homework: Develop a research question](sections/homework2.md)
 
 ### Day Three 
 
 - [Discussion: Research Questions](sections/questions.md)
-- [Collecting and Processing API Data with Requests](sections/requests-session/README.md)  
+- [Collecting and Processing API Data with Requests](sections/requests-session/README.md)
 - [Reading documentation](sections/API_Documentation.md)
 - [Self Directed Exploration: The New York Times API](sections/exploratory.md)
 
@@ -42,7 +42,8 @@ To prepare for this course, please:
 ### Day Four
 
 - [Overview of data formats](sections/data-formats.ipynb)
-- [Exploring & Visualizing Your Data Set](exploring.md)
+- [Exploring & Visualizing Your Data Set](sections/visualization.ipynb)
+- [Visualizing Your Data Set, Continued](sections/visualization2.ipynb)
 - [Creating Twitterbots with the Twitter API](twitter-api/README.md)
 - [Lab: Exploring Your Data](lab2.md)
 
