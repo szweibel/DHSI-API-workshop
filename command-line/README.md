@@ -27,8 +27,6 @@ By the end of the session, you'll be able to navigate your computer, create and 
 [Further challenges](sections/challenges.md)  
 [Glossary](sections/glossary.md)  
 
-[Get Started >>>]((command-line/sections/what-is-the-command-line.md))
-
 -----
 
 Session Leader: Mary Catherine Kinniburgh  
