@@ -36,6 +36,7 @@ To prepare for this course, please:
 - [Self Directed Exploration: The New York Times API](sections/exploratory.md)
 
 **[Example: Jonathan's Judging Books' Covers](example-judging-covers.ipynb)**
+
 **[Example: Alternate DHSIs Twitter Bot](https://gist.github.com/JonathanReeve/838763012865ab785f8b304d4e5e0346)**
 
 [Homework: Collecting data](sections/homework3.md)
