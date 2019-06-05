@@ -49,7 +49,7 @@ requests.Response
 
 Let’s spend some time on this one. `url` is clear enough as a parameter/argument. How about `params=None`? And even more obscure, `**kwargs`? “Optional arguments that ‘request’ takes.” `Kwargs` means “Keyword Arguments”. 
 
-See if you can find what these optional arguments can be in the documents for the Requests API. Was that clear at all?
+See if you can find this example in the documents for the Requests API. It's buried quite deeply!
 
 Much of the time, documentation feels unmoored: each definition of a function or other aspect of the library is presented without context, failing to ground the reader in the tool. For example, the definition of a function may tell you that it “starts the process” without specifying what the process is. 
 
