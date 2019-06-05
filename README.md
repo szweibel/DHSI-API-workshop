@@ -26,8 +26,6 @@ To prepare for this course, please:
 - [API research presentations](sections/APIpresentations.md)
 - [Introduction to Python](python/README.md)
 
-**[Example: Jonathan's Judging Books' Covers](example-judging-covers.ipynb)**
-
 [Homework: Develop a research question](sections/homework2.md)
 
 ### Day Three 
@@ -36,6 +34,9 @@ To prepare for this course, please:
 - [Collecting and Processing API Data with Requests](sections/requests-session/README.md)
 - [Reading documentation](sections/API_Documentation.md)
 - [Self Directed Exploration: The New York Times API](sections/exploratory.md)
+
+**[Example: Jonathan's Judging Books' Covers](example-judging-covers.ipynb)**
+**[Example: Alternate DHSIs Twitter Bot](https://gist.github.com/JonathanReeve/838763012865ab785f8b304d4e5e0346)**
 
 [Homework: Collecting data](sections/homework3.md)
 
