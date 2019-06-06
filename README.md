@@ -37,7 +37,7 @@ To prepare for this course, please:
 
 **[Example: Jonathan's Judging Books' Covers](example-judging-covers.ipynb)**
 
-**[Example: Alternate DHSIs Twitter Bot](https://gist.github.com/JonathanReeve/838763012865ab785f8b304d4e5e0346)**
+**[Example: Alternate DHSIs Twitter Bot](example-twitter-bot.ipynb)**
 
 **[Example: Mining New York Times Best-Seller Descriptions](https://github.com/szweibel/DHSI-API-workshop/blob/master/example-nytimes.ipynb)**
 
