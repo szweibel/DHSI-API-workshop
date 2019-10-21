@@ -45,7 +45,7 @@ Remember that the REPL does four things:
 
 ## Installing requests
 
-Now that we've reviewed how the REPL works, let's use it to request some data from Chonicling America for us to work with. For this, we'll be using the requests library in Python. This library allows you to communicate with the web from inside your Python program.
+Now that we've reviewed how the REPL works, let's use it to request some data from Chronicling America for us to work with. For this, we'll be using the requests library in Python. This library allows you to communicate with the web from inside your Python program.
 
 First, let's make sure requests is installed. Exit the REPL by holding `Control` and hitting `d`. You can also type `exit()` and hit `Enter`.
 
