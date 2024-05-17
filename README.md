@@ -35,10 +35,6 @@ To prepare for this course, please:
 - [Reading documentation](sections/API_Documentation.md)
 - [Self Directed Exploration: The New York Times API](sections/exploratory.md)
 
-**[Example: Jonathan's Judging Books' Covers](example-judging-covers.ipynb)**
-
-**[Example: Alternate DHSIs Twitter Bot](example-twitter-bot.py)**
-
 **[Example: Mining New York Times Best-Seller Descriptions](https://github.com/szweibel/DHSI-API-workshop/blob/master/example-nytimes.ipynb)**
 
 [Homework: Collecting data](sections/homework3.md)
@@ -48,7 +44,6 @@ To prepare for this course, please:
 - [Overview of data formats](sections/data-formats.ipynb)
 - [Exploring & Visualizing Your Data Set](sections/visualization.ipynb)
 - [Visualizing Your Data Set, Continued](sections/visualization2.ipynb)
-- [Creating Twitterbots with the Twitter API](twitter-api/README.md)
 - Lab
 
 [Homework: Work on presentation](homework4.md)
