@@ -20,12 +20,11 @@ Students should come to day 3 with a short formulation of their research questio
 ## Project Ideas
 
 ### Literature
-- Using [corpus-db.org](http://corpus-db.org), get all the Library of Congress subject headings for novels by Charles Dickens (or any other writer with works in Project Gutenberg). Determine what the most common subjects of his novels are. Create a chart that plots this data. 
-- Use the Google Books or Open Library APIs to find publication data for books published exactly one hundred years ago today. Bonus: write a Twitter bot that tweets about these every day. 
+- Use the Google Books or Open Library APIs to find publication data for books published exactly one hundred years ago today. 
 - Use the Goodreads API or iTunes API to find star-ratings for each of a writer's works. Which works are better rated? Plot the results. 
 
 ### History
-- Using the New York Times API (or the API from another news source), find the number of articles published each year with the words "North Korea" (or another search term) in their title. Plot these results. 
+- Using the New York Times API (or the API from another news source), find the number of articles published each year with the words "Protests" (or another search term) in their title. Plot these results. 
 - Using the New York Times API (or another similar API), determine the US state or Canadian province that appears the most frequently in news articles. Bonus: does this change over time?
 
 ### Music
