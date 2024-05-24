@@ -24,7 +24,7 @@ To prepare for this course, please:
 ### Day Two 
 
 - [API research presentations](sections/APIpresentations.md)
-- [Introduction to Python](python/README.md)
+- [Introduction to Python](https://github.com/DHRI-Curriculum/python)
 
 [Homework: Develop a research question](sections/homework2.md)
 
