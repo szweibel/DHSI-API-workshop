@@ -16,7 +16,7 @@ To prepare for this course, please:
 
 - [Introduction](sections/introduction.md)
 - [What is an API?](sections/WhatIsAPI.md)
-- [Introduction to the command line](command-line/README.md)
+- [Introduction to the command line](https://github.com/DHRI-Curriculum/command-line)
 - [Requests with cURL](sections/curl.md)
 
 [Homework: Find an API; prepare to present it to the class](sections/homework1.md)
