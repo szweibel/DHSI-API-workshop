@@ -35,7 +35,7 @@ To prepare for this course, please:
 - [Reading documentation](sections/API_Documentation.md)
 - [Self Directed Exploration: The New York Times API](sections/exploratory.md)
 
-**[Example: Mining New York Times Best-Seller Descriptions](https://github.com/szweibel/DHSI-API-workshop/blob/master/example-nytimes.ipynb)**
+**[Example: The MET API](https://github.com/szweibel/DHSI-API-workshop/blob/master/met_api.ipynb)**
 
 [Homework: Collecting data](sections/homework3.md)
 
