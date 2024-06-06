@@ -41,9 +41,7 @@ To prepare for this course, please:
 
 ### Day Four
 
-- [Overview of data formats](sections/data-formats.ipynb)
-- [Exploring & Visualizing Your Data Set](sections/visualization.ipynb)
-- [Visualizing Your Data Set, Continued](sections/visualization2.ipynb)
+- [Exploring the NYT API](nyt_api.ipynb)
 - Lab
 
 [Homework: Work on presentation](homework4.md)
