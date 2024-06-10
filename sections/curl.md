@@ -67,9 +67,9 @@ $ curl https://curl.se
 <head>
 <title>curl</title>
 <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
-<link rel="stylesheet" type="text/css" href="https://curl.haxx.se/curl.css">
-<link rel="shortcut icon" href="https://curl.haxx.se/favicon.ico">
-<link rel="icon" href="https://curl.haxx.se/logo/curl-symbol.svg" type="image/svg+xml">
+<link rel="stylesheet" type="text/css" href="https://curl.se/curl.css">
+<link rel="shortcut icon" href="https://curl.se/favicon.ico">
+<link rel="icon" href="https://curl.se/logo/curl-symbol.svg" type="image/svg+xml">
 </head>
  ```
 
@@ -104,9 +104,9 @@ Vary: Accept-Encoding
 <head>
 <title>curl</title>
 <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
-<link rel="stylesheet" type="text/css" href="https://curl.haxx.se/curl.css">
-<link rel="shortcut icon" href="https://curl.haxx.se/favicon.ico">
-<link rel="icon" href="https://curl.haxx.se/logo/curl-symbol.svg" type="image/svg+xml">
+<link rel="stylesheet" type="text/css" href="https://curl.se/curl.css">
+<link rel="shortcut icon" href="https://curl.se/favicon.ico">
+<link rel="icon" href="https://curl.se/logo/curl-symbol.svg" type="image/svg+xml">
 </head>
 ```
 
@@ -116,7 +116,7 @@ You don't need to know what all these bits of information mean, but you can see 
 
 Using the `--head` (`-I`) option will make cURL issue a HEAD request. In other words, you will only see the headers associated with the URL.
 
-``` curl -I http://curl.haxx.se ```
+``` curl -I http://curl.se ```
 
 cURL was made to be flexible and will attempt to retrieve information on anything you give it. Here again, precise typing is important. If you feed cURL a slightly wonky url it will do its best to get information, but to get the results you want, you need to be clear about where you send it.
 
@@ -185,4 +185,4 @@ To download via a proxy server
 
 	curl -x proxy.example.com:3128 http://www.tutorialspoint.com/unix/
 
-These examples are derived from the [curl official tutorial](https://curl.haxx.se/docs/httpscripting.html).
+These examples are derived from the [curl official tutorial](https://curl.se/docs/httpscripting.html).
