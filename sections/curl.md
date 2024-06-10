@@ -4,7 +4,7 @@ Now that we're a little familiar with basic commands for navigating our file sys
 
 ## What is cURL and why are we learning it?
 
-[curl](https://curl.haxx.se/) is a command-line application for performing requests using a variety of protocols including HTTP. We're going to look at how to use it when doing HTTP requests.
+[curl](https://curl.se/) is a command-line application for performing requests using a variety of protocols including HTTP. We're going to look at how to use it when doing HTTP requests.
 
 According to Google's Data API's article, 
 
@@ -48,11 +48,11 @@ HTTP has a number of **methods** that determine which way information is flowing
 
 The most common cURL command is to GET a URL. The URL could itself refer to a web page, an image or a file. The client issues a GET request to the server and receives the information (document, image, etc)  it asked for. If, in your terminal, you you issue the command:
 
-``` curl https://curl.haxx.se ```
+``` curl https://curl.se ```
 
 you will get a web page returned in your terminal window in HTML format. 
 
-If you're familiar with HTML, you will recognize the contents of a fairly conventional homepage. If you're not sure what you're looking at, try following the link [https://curl.haxx.se](https://curl.haxx.se) in another browser window to see how it compares. You'll notice the chunks of text between bracketed tags like `<h1> Everything curl </h1>` are the same things you see visually displayed by the browser.
+If you're familiar with HTML, you will recognize the contents of a fairly conventional homepage. If you're not sure what you're looking at, try following the link [https://curl.se](https://curl.se) in another browser window to see how it compares. You'll notice the chunks of text between bracketed tags like `<h1> Everything curl </h1>` are the same things you see visually displayed by the browser.
 
 ### -i
 
@@ -61,7 +61,7 @@ All HTTP replies contain a set of response headers that are normally hidden, use
 Compare these results:
 
 ``` 
-$ curl https://curl.haxx.se
+$ curl https://curl.se
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en">
 <head>
@@ -76,7 +76,7 @@ $ curl https://curl.haxx.se
 to these:
 
 ``` 
-$ curl -i https://curl.haxx.se 
+$ curl -i https://curl.se 
 HTTP/1.1 200 OK
 Server: Apache
 X-Frame-Options: SAMEORIGIN
@@ -124,11 +124,11 @@ cURL was made to be flexible and will attempt to retrieve information on anythin
 
 cURL supports over 200 options like `-I` or `-i`. These switches (which indicate how the command should run) come in both short and long forms. Short options follow a single hyphen; long options follow a double hyphen. As you just saw, `--head` and `-I` will return the same results. The command line parser always parses the entire line in cURL, so you can put the flags indicating options anywhere in the line.
 
-``` curl -i https://curl.haxx.se ```
+``` curl -i https://curl.se ```
 
 will return the same results as 
 
-``` curl https://curl.haxx.se -i ```
+``` curl https://curl.se -i ```
 
 
 ### Some fun cURL commands
