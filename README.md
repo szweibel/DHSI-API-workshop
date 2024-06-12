@@ -33,7 +33,6 @@ To prepare for this course, please:
 - [Discussion: Research Questions](sections/questions.md)
 - [Collecting and Processing API Data with Requests](sections/requests-session/README.md)
 - [Reading documentation](sections/API_Documentation.md)
-- [Self Directed Exploration: The New York Times API](sections/exploratory.md)
 
 **[Example: The MET API](https://github.com/szweibel/DHSI-API-workshop/blob/master/met_api.ipynb)**
 
@@ -41,7 +40,8 @@ To prepare for this course, please:
 
 ### Day Four
 
-- [Exploring the NYT API](nyt_api.ipynb)
+- [Self Directed Exploration: The New York Times API](sections/exploratory.md)
+- [New York Time API notebook](nyt_api.ipynb)
 - Lab
 
 [Homework: Work on presentation](homework4.md)
